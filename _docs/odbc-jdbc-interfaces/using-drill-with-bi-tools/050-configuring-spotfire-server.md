@@ -1,8 +1,4 @@
----
-title: "Configuring Tibco Spotfire Server with Drill"
-date:  
-parent: "Using Drill with BI Tools"
----
+# Configuring Tibco Spotfire Server with Drill
 
 This document describes how to configure Tibco Spotfire Server (TSS) to integrate with Apache Drill and explore multiple data formats instantly on Hadoop. Users can combine these powerful platforms to rapidly gain analytical access to a wide variety of data types. 
 

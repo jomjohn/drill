@@ -1,8 +1,4 @@
----
-title: "Handling Different Data Types"
-date:  
-parent: "Data Types"
----
+# Handling Different Data Types
 ## Handling HBase Data
 To query HBase data using Drill, convert every column of an HBase table to/from byte arrays from/to an SQL data type as described in the section ["Querying HBase"]({{ site.baseurl}}/docs/querying-hbase/). Use [CONVERT_TO or CONVERT_FROM]({{ site.baseurl }}/docs//data-type-conversion/#convert_to-and-convert_from) functions to perform conversions of HBase data.
 

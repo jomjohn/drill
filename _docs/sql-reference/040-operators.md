@@ -1,8 +1,4 @@
----
-title: "Operators"
-date: 2017-03-14 05:06:04 UTC
-parent: "SQL Reference"
----
+# Operators
 You can use various types of operators in your Drill queries to perform
 operations on your data.
 

@@ -1,8 +1,4 @@
----
-title: "Configuring the Drill Shell"
-date: 2016-11-21 22:14:41 UTC
-parent: "Configure Drill"
----
+# Configuring the Drill Shell
 After [starting the Drill shell]({{site.baseurl}}/docs/starting-drill-on-linux-and-mac-os-x/), you can type queries on the shell command line. At the Drill shell command prompt, typing "help" lists the configuration and other options you can set to manage shell functionality. Apache Drill 1.0 and later formats the resultset output tables for readability if possible. In this release, columns having 70 characters or more cannot be formatted. This document formats all output for readability and example purposes.
 
 Formatting tables takes time, which you might notice if running a huge query using the default `outputFormat` setting, which is `table` of the Drill shell. You can set another, more performant table formatting such as `csv`, as shown in the [examples]({{site.baseurl}}/docs/configuring-the-drill-shell/#examples-of-configuring-the-drill-shell). 

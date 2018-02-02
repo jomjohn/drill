@@ -1,8 +1,4 @@
----
-title: "Date/Time Functions and Arithmetic"
-date:  
-parent: "SQL Functions"
----
+# Date/Time Functions and Arithmetic
 
 In addition to the TO_DATE, TO_TIME, and TO_TIMESTAMP functions, Drill supports a number of other date/time functions and arithmetic operators for use with dates, times, and intervals. Drill supports time functions based on the Gregorian calendar and in the range 1971 to 2037.
 

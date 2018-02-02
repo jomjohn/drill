@@ -1,8 +1,4 @@
----
-title: "Guidelines for Optimizing Aggregation"
-date: 2016-11-21 22:28:43 UTC
-parent: "Query Plans and Tuning"
---- 
+# Guidelines for Optimizing Aggregation 
 
 
 For queries that contain GROUP BY, Drill performs aggregations in either 1 or 2 phases.  In both of these schemes, Drill can use the Hash Aggregate and Streaming Aggregate physical operators.  The default behavior in Drill is to perform 2 phase aggregation.  

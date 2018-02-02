@@ -1,8 +1,4 @@
----
-title: "Reserved Keywords"
-date: 2016-11-18 21:59:17 UTC
-parent: "SQL Reference"
----
+# Reserved Keywords
 When you use a reserved keyword in a Drill query, enclose the word in
 backticks. For example, if you issue the following query to Drill,  
 you must include backticks around the word TABLES because TABLES is a reserved

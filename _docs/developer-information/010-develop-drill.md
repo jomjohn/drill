@@ -1,6 +1,3 @@
----
-title: "Develop Drill"
-parent: "Developer Information"
----
+# Develop Drill
 
 

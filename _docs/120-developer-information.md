@@ -1,5 +1,3 @@
----
-title: "Developer Information"
----
+# Developer Information
 
 

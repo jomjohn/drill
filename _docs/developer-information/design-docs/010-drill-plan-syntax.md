@@ -1,8 +1,4 @@
----
-title: "Drill Plan Syntax"
-date:  
-parent: "Design Docs"
----
+# Drill Plan Syntax
 ### Whats the plan?
 
 This section is about the end-to-end plan flow for Drill. The incoming query

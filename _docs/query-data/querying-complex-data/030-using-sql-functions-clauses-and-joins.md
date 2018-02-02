@@ -1,8 +1,4 @@
----
-title: "Using SQL Functions, Clauses, and Joins"
-date:  
-parent: "Querying Complex Data"
----
+# Using SQL Functions, Clauses, and Joins
 You can use standard SQL clauses, such as WHERE and ORDER BY, to elaborate on
 this kind of simple query:
 

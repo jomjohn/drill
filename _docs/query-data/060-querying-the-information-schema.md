@@ -1,8 +1,4 @@
----
-title: "Querying the INFORMATION SCHEMA"
-date: 2017-04-05 00:09:56 UTC
-parent: "Query Data"
----
+# Querying the INFORMATION SCHEMA
 When you are using Drill to connect to multiple data sources, you need a
 simple mechanism to discover what each data source contains. The information
 schema is an ANSI standard set of metadata tables that you can query to return

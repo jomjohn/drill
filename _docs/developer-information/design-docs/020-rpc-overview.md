@@ -1,8 +1,4 @@
----
-title: "RPC Overview"
-date: 2017-08-07 19:02:50 UTC
-parent: "Design Docs"
----
+# RPC Overview
 Drill leverages the Netty 4 project as an RPC underlayment. From there, we
 built a simple protobuf based communication layer optimized to minimize the
 requirement for on heap data transformations. Both client and server utilize

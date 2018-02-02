@@ -1,8 +1,4 @@
----
-title: "REPEATED_CONTAINS"
-date:  
-parent: "Nested Data Functions"
----
+# REPEATED_CONTAINS
 REPEATED CONTAINS searches for a keyword in an array. 
 
 ## Syntax

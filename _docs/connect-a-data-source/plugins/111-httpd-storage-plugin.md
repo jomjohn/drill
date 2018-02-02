@@ -1,8 +1,4 @@
----
-title: "HTTPD Storage Plugin"
-date: 2017-03-31 21:49:40 UTC
-parent: "Connect a Data Source"
----
+# HTTPD Storage Plugin
 
 As of version 1.9, Drill can natively ingest and query web server logs. To configure Drill to read server logs, you must modify the extensions section in the dfs storage plugin configuration, as shown below:
 

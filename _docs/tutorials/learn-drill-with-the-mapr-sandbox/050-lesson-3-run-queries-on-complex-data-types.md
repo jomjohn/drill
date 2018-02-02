@@ -1,8 +1,4 @@
----
-title: "Lesson 3: Run Queries on Complex Data Types"
-date:  
-parent: "Learn Drill with the MapR Sandbox"
----
+# Lesson 3: Run Queries on Complex Data Types
 ## Goal
 
 This lesson focuses on queries that exercise functions and operators on self-

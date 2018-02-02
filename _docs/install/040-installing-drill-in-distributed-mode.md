@@ -1,4 +1,1 @@
----
-title: "Installing Drill in Distributed Mode"
-parent: "Install Drill"
----
+# Installing Drill in Distributed Mode

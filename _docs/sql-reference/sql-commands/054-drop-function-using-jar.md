@@ -1,8 +1,4 @@
----
-title: "DROP FUNCTION USING JAR"
-date: 2016-11-22 00:41:29 UTC
-parent: "SQL Commands"
----
+# DROP FUNCTION USING JAR
 
 The DROP FUNCTION USING JAR command unregisters a UDF. As of Drill 1.9, you can use this command to unregister a UDF based on the JAR file name. See [Dynamic UDFs]({{site.baseurl}}/docs/dynamic-udfs/) for more information.    
 

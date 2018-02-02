@@ -1,8 +1,4 @@
----
-title: "Asynchronous Parquet Reader"
-date: 2016-11-21 21:25:59 UTC
-parent: "Performance Tuning"
----
+# Asynchronous Parquet Reader
 
 Drill 1.9 introduces an asynchronous Parquet reader option that you can enable to improve the performance of the Parquet Scan operator. The Parquet Scan operator reads Parquet data. Reading Parquet data involves scanning the disk, decompressing and decoding the data, and writing data to internal memory structures (value vectors).  
 

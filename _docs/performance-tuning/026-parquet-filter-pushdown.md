@@ -1,8 +1,4 @@
----
-title: "Parquet Filter Pushdown"
-date: 2016-11-21 21:25:59 UTC
-parent: "Performance Tuning"
----
+# Parquet Filter Pushdown
 
 Drill 1.9 introduces the Parquet filter pushdown option. Parquet filter pushdown is a performance optimization that prunes extraneous data from a Parquet file to reduce the amount of data that Drill scans and reads when a query on a Parquet file contains a filter expression. Pruning data reduces the I/O, CPU, and network overhead to optimize Drill’s performance.
  

@@ -1,8 +1,4 @@
----
-title: "ORDER BY Clause"
-date:  
-parent: "SQL Commands"
----
+# ORDER BY Clause
 The ORDER BY clause sorts the result set of a query.
 
 

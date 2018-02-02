@@ -1,8 +1,4 @@
----
-title: "SQL Reference Introduction"
-date:  
-parent: "SQL Reference"
----
+# SQL Reference Introduction
 Drill supports the ANSI standard for SQL. You can use SQL to query your Hive,
 HBase, and distributed file system data sources. Drill can discover the form
 of the data when you submit a query. You can query text files and nested data

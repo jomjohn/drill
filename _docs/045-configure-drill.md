@@ -1,6 +1,4 @@
----
-title: "Configure Drill"
----
+# Configure Drill
 
   
 

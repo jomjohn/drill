@@ -1,8 +1,4 @@
----
-title: "SQL Window Functions Introduction"
-date: 2016-03-16 00:27:40 UTC
-parent: "SQL Window Functions"
----
+# SQL Window Functions Introduction
 
 Window functions operate on a set of rows and return a single value for each row from the underlying query. The term window describes the set of rows on which the function operates. A window function uses values from the rows in a window to calculate the returned values.  
 

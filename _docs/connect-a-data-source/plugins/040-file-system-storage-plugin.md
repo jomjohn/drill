@@ -1,8 +1,4 @@
----
-title: "File System Storage Plugin"
-date:  
-parent: "Connect a Data Source"
----
+# File System Storage Plugin
 You can register a storage plugin configuration that connects Drill to a local file system or to a distributed file system registered in the Hadoop `core-site.xml`, such as S3
 or HDFS. By
 default, Apache Drill includes a storage plugin configuration named `dfs` that points to the local file

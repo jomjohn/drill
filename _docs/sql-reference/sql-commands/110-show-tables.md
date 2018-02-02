@@ -1,8 +1,4 @@
----
-title: "SHOW TABLES"
-date:  
-parent: "SQL Commands"
----
+# SHOW TABLES
 The SHOW TABLES command returns a list of views created within a schema. It
 also returns the tables that exist in Hive and HBase when you use storage plugin configurations for these data sources. See [Storage Plugin
 Registration]({{ site.baseurl }}/docs/storage-plugin-registration).

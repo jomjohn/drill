@@ -1,8 +1,4 @@
----
-title: "Query Stages"
-date:  
-parent: "Design Docs"
----
+# Query Stages
 ## Overview
 
 Apache Drill is a system for interactive analysis of large-scale datasets. It

@@ -1,8 +1,4 @@
----
-title: "Installing Drill on Windows"
-date: 2017-12-16 06:24:23 UTC
-parent: "Installing Drill in Embedded Mode"
----
+# Installing Drill on Windows
 First, check that you [meet the prerequisites]({{site.baseurl}}/docs/embedded-mode-prerequisites), including setting the JAVA_HOME environment variable, and then install Drill. Currently, Drill supports 64-bit Windows only. Complete the following steps to install Drill:
 
 1. Download the latest version of Apache Drill [here](http://apache.mirrors.hoobly.com/drill/drill-1.12.0/apache-drill-1.12.0.tar.gz).

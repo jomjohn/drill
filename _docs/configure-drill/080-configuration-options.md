@@ -1,7 +1,4 @@
----
-title: "Configuration Options"
-parent: "Configure Drill"
----
+# Configuration Options
 
 
 

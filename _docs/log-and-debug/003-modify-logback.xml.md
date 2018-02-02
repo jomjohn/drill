@@ -1,8 +1,4 @@
----
-title: "Modify logback.xml"
-date: 2016-02-09 21:33:59 UTC
-parent: "Log and Debug"
----
+# Modify logback.xml
 
 You can access `logback.xml` in `~<drill_installation_directory>/conf/`. The default log level is set to INFO. You can enable debug logging and Lilith in `logback.xml`. Drill should automatically pick up changes to `logback.xml` if you modify the file while Drill is running. If not, restart the cluster for Logback to pick up new settings.
 

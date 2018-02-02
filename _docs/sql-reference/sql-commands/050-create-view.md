@@ -1,8 +1,4 @@
----
-title: "CREATE VIEW"
-date: 2017-04-05 00:09:58 UTC
-parent: "SQL Commands"
----
+# CREATE VIEW
 The CREATE VIEW command creates a virtual structure for the result set of a
 stored query. A view can combine data from multiple underlying data sources
 and provide the illusion that all of the data is from one source. You can use

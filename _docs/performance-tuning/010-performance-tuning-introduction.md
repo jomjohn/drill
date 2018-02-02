@@ -1,8 +1,4 @@
----
-title: "Performance Tuning Introduction"
-date:  
-parent: "Performance Tuning"
----
+# Performance Tuning Introduction
 You can apply performance tuning measures to improve how efficiently Drill queries data. To significantly improve performance in Drill, you must have knowledge about the underlying data and data sources, as well as familiarity with how Drill executes queries.
 
 You can analyze query plans and profiles to identify the source of performance issues in Drill. Once you have isolated the source of an issue, you can apply the following tuning techniques to improve query performance:

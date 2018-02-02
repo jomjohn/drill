@@ -1,4 +1,1 @@
----
-title: "Nested Data Functions"
-parent: "SQL Reference"
----
+# Nested Data Functions

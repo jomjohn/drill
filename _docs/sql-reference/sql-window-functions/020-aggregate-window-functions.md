@@ -1,8 +1,4 @@
----
-title: "Aggregate Window Functions"
-date:  
-parent: "SQL Window Functions"
----
+# Aggregate Window Functions
 
 Window functions operate on a set of rows and return a single value for each row from the underlying query. The OVER() clause differentiates window functions from other analytical and reporting functions. See [SQL Window Functions Introduction]({{site.baseurl}}/docs/sql-window-functions-introduction/). You can use certain aggregate functions as window functions in Drill. 
 

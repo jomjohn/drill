@@ -1,8 +1,4 @@
----
-title: "Configure Drill Introduction"
-date: 2016-11-21 22:42:09 UTC
-parent: "Configure Drill"
----
+# Configure Drill Introduction
 
 This section briefly describes the following key Drill configuration tasks and provides links to configuration procedures:
 

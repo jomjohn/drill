@@ -1,6 +1,4 @@
----
-title: "Data Sources and File Formats"
----
+# Data Sources and File Formats
 
 
 

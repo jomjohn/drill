@@ -1,8 +1,4 @@
----
-title: "Architecture Introduction"
-date:  
-parent: "Architecture"
----
+# Architecture Introduction
 Apache Drill is a low latency distributed query engine for large-scale
 datasets, including structured and semi-structured/nested data. Inspired by
 Google’s Dremel, Drill is designed to scale to several thousands of nodes and

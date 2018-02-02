@@ -1,8 +1,4 @@
----
-title: "WHERE Clause"
-date:  
-parent: "SQL Commands"
----
+# WHERE Clause
 The WHERE clause selects rows based on a boolean expression. Only rows for which the expression evaluates to TRUE are returned in the result.
 
 ## Syntax

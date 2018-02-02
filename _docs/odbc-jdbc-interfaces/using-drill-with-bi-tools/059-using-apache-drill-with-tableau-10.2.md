@@ -1,8 +1,4 @@
----
-title: "Using Apache Drill with Tableau 10.2"
-date: 2017-03-31 00:05:13 UTC
-parent: "Using Drill with BI Tools"
----  
+# Using Apache Drill with Tableau 10.2  
 
 **Author:** Andries Engelbrecht, Partner Systems Engineer, MapR Technologies  
 

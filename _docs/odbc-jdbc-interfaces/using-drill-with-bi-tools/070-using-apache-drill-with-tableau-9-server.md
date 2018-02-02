@@ -1,8 +1,4 @@
----
-title: "Using Apache Drill with Tableau 9 Server"
-date:  
-parent: "Using Drill with BI Tools"
----
+# Using Apache Drill with Tableau 9 Server
 
 This document describes how to connect Tableau 9 Server to Apache Drill and explore multiple data formats instantly on Hadoop, as well as share all the Tableau visualizations in a collaborative environment. Use the combined power of these tools to get direct access to semi-structured data, without having to rely on IT teams for schema creation and data manipulation. 
 

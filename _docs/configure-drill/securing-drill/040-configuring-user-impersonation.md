@@ -1,8 +1,4 @@
----
-title: "Configuring User Impersonation"
-date: 2016-05-05 21:44:32 UTC
-parent: "Securing Drill"
----
+# Configuring User Impersonation
 Impersonation allows a service to act on behalf of a client while performing the action requested by the client. By default, user impersonation is disabled in Drill. You can configure user impersonation in the <DRILLINSTALL_HOME>/conf/drill-override.conf file.
  
 When you enable impersonation, Drill executes client requests as the user logged in to the client. Drill passes the user credentials to the file system, and the file system checks to see if the user has permission to access the data. When you enable authentication, Drill uses the pluggable authentication module (PAM) to authenticate a user’s identity before the user can access the Drillbit process. See User Authentication.

@@ -1,8 +1,4 @@
----
-title: "Throttling"
-date: 2017-11-14 21:36:24 UTC
-parent: "Query Plans and Tuning"
---- 
+# Throttling 
 
 Drill 1.12 introduces throttling. Throttling limits the number of concurrent queries that run to prevent queries from failing with out-of-memory errors. When you enable throttling, you configure the number of concurrent queries that can run and the resource requirements for each query. Drill calculates the amount of memory to assign per query per node.
 

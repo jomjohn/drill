@@ -1,8 +1,4 @@
----
-title: "JSON Data Model"
-date: 2018-01-30 18:38:55 UTC
-parent: "Data Sources and File Formats"
----
+# JSON Data Model
 Drill supports [JSON (JavaScript Object Notation)](http://www.json.org/), a self-describing data format. The data itself implies its schema and has the following characteristics:
 
 * Language-independent

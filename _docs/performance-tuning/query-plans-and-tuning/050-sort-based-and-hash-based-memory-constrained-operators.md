@@ -1,8 +1,4 @@
----
-title: "Sort-Based and Hash-Based Memory-Constrained Operators"
-date: 2017-08-18 17:48:11 UTC
-parent: "Query Plans and Tuning"
---- 
+# Sort-Based and Hash-Based Memory-Constrained Operators 
 
 Drill uses hash-based and sort-based operators depending on the query characteristics. Hash Aggregate and Hash Join are hash-based operators. Sort, Streaming Aggregate, and Merge Join are sort-based operators. Both hash-based and sort-based operations consume memory, however the Hash Aggregate and Hash Join operators are the fastest and most memory intensive operators. 
 

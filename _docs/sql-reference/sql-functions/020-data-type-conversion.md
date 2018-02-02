@@ -1,8 +1,4 @@
----
-title: "Data Type Conversion"
-date:  
-parent: "SQL Functions"
----
+# Data Type Conversion
 Drill supports the following functions for casting and converting data types:
 
 * [CAST]({{ site.baseurl }}/docs/data-type-conversion/#cast)

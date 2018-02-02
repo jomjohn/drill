@@ -1,8 +1,4 @@
----
-title: "DROP TABLE"
-date: 2016-08-04 22:01:44 UTC
-parent: "SQL Commands"
----
+# DROP TABLE
 
 As of Drill 1.2, you can use the DROP TABLE command to remove tables (files or directories) from a file system when the file system is configured as a DFS storage plugin. See [Storage Plugin Registration]({{ site.baseurl }}/docs/storage-plugin-registration/). As of Drill 1.8, you can include the IF EXISTS parameter with the DROP TABLE command. Currently, you can only issue the DROP TABLE command against file system data sources.
 

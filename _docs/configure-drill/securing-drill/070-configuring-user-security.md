@@ -1,8 +1,4 @@
----
-title: "Configuring User Security"
-date: 2017-05-17 01:38:49 UTC
-parent: "Securing Drill"
----
+# Configuring User Security
 ### Authentication
 
 Authentication is the process of establishing confidence of authenticity. A Drill client user is authenticated when a drillbit process running in a Drill cluster confirms the identity it is presented with.  Drill supports several authentication mechanisms through which users can prove their identity before accessing cluster data: 

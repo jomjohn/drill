@@ -1,8 +1,4 @@
----
-title: "Using jpam as the PAM Authenticator"
-date: 2017-05-17 01:38:50 UTC
-parent: "Securing Drill"
----
+# Using jpam as the PAM Authenticator
 
 
 To use jpam as the PAM authenticator with Drill, complete the following steps:

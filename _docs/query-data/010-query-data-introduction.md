@@ -1,8 +1,4 @@
----
-title: "Query Data Introduction"
-date:  
-parent: "Query Data"
----
+# Query Data Introduction
 You can query local and distributed file systems, Hive, HBase data, complex data, INFORMATION SCHEMA, and system tables as described in the subtopics of this section. 
 
 The query specifies the data source location and includes data casting. 

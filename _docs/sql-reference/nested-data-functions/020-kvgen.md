@@ -1,8 +1,4 @@
----
-title: "KVGEN"
-date:  
-parent: "Nested Data Functions"
----
+# KVGEN
 Returns a list of the keys that exist in the map.
 
 ## Syntax

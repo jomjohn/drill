@@ -1,11 +1,4 @@
----
-layout: post
-title: "Drill Tutorial at NoSQL Now! 2015"
-code: drill-tutorial-at-nosql-now-2015
-excerpt: Attend the 3-hour Drill tutorial at the NoSQL Now! 2015 conference to learn more about Apache Drill.
-authors: ["tshiran"]
-nodate: true
----
+# Drill Tutorial at NoSQL Now! 2015
 <script type="text/javascript" src="//addthisevent.com/libs/1.5.8/ate.min.js"></script>
 <a href="{{ site.baseurl }}/blog/2015/07/23/drill-tutorial-at-nosql-now-2015/" title="Add to Calendar" class="addthisevent">
     Add to Calendar

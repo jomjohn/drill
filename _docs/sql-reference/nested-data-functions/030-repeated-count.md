@@ -1,8 +1,4 @@
----
-title: "REPEATED_COUNT"
-date:  
-parent: "Nested Data Functions"
----
+# REPEATED_COUNT
 This function counts the values in an array. 
 
 ## Syntax

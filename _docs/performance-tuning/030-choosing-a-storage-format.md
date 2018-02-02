@@ -1,8 +1,4 @@
----
-title: "Choosing a Storage Format"
-date:  
-parent: "Performance Tuning"
---- 
+# Choosing a Storage Format 
 Drill supports several file formats for data including CSV, TSV, PSV, JSON, and Parquet. Changing the default format is a typical functional change that can optimize performance. Drill runs fastest against Parquet files because Parquet data representation is almost identical to how Drill represents data.
 
 Optimized for working with large files, Parquet arranges data in columns, putting related values in close proximity to each other to optimize query performance, minimize I/O, and facilitate compression. Parquet detects and encodes the same or similar data using a technique that conserves resources.

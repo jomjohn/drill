@@ -1,8 +1,4 @@
----
-title: "Sample Data: Donuts"
-date:  
-parent: "Querying Complex Data"
----
+# Sample Data: Donuts
 The complex data queries use the sample `donuts.json` file. To download this file, go to [Drill test resources](https://github.com/apache/drill/blob/master/exec/java-exec/src/test/resources) page, locate donuts.json in the list of files, and download it. 
 
 Here is the first "record" (`0001`) from the `donuts.json `file. In

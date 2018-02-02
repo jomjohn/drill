@@ -1,7 +1,4 @@
----
-title: "Securing Drill"
-parent: "Configure Drill"
----
+# Securing Drill
 
 
 

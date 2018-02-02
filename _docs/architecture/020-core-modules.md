@@ -1,8 +1,4 @@
----
-title: "Core Modules"
-date:  
-parent: "Architecture"
----
+# Core Modules
 The following image represents components within each Drillbit:
 
 ![drill query flow]({{ site.baseurl }}/docs/img/DrillbitModules.png)

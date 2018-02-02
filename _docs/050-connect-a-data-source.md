@@ -1,3 +1,1 @@
----
-title: "Connect a Data Source"
----
+# Connect a Data Source

@@ -1,7 +1,4 @@
----
-title: "Project Bylaws"
-date:  
----
+# Project Bylaws
 ## Introduction
 
 This document defines the bylaws under which the Apache Drill project

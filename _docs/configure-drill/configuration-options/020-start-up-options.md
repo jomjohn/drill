@@ -1,8 +1,4 @@
----
-title: "Start-Up Options"
-date: 2017-08-17 21:20:19 UTC
-parent: "Configuration Options"
----
+# Start-Up Options
 The start-up options for Drill reside in a [HOCON](https://github.com/typesafehub/config/blob/master/HOCON.md) configuration file format, which is a hybrid between a properties file and a JSON file. Drill start-up options consist of a group of files with a nested relationship. At the bottom of the file hierarchy are the default files that Drill provides, starting with `drill-default.conf`. 
 
 The `drill-default.conf` file is overridden by one or more `drill-module.conf` files that Drill’s internal modules provide. The `drill-module.conf` files are overridden by the `drill-override.conf` file that you define.    

@@ -1,8 +1,4 @@
----
-title: "Roles and Privileges"
-date: 2017-03-15 00:30:47 UTC
-parent: "Securing Drill"
----
+# Roles and Privileges
 Drill has two roles that perform different functions: 
 
 * User (USER) role

@@ -1,8 +1,4 @@
----
-title: "Text Files: CSV, TSV, PSV"
-date: 2016-03-21 19:27:17 UTC
-parent: "Data Sources and File Formats"
----
+# Text Files: CSV, TSV, PSV
 
 Best practices for reading text files are:
 

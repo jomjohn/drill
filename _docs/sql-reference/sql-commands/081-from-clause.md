@@ -1,8 +1,4 @@
----
-title: "FROM Clause"
-date:  
-parent: "SQL Commands"
----
+# FROM Clause
 The FROM clause lists the references (tables, views, and subqueries) that data is selected from. Drill expands the traditional concept of a “table reference” in a standard SQL FROM clause to refer to files and directories in a local or distributed file system.
 
 ## Syntax

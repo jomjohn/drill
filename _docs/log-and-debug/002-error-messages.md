@@ -1,8 +1,4 @@
----
-title: "Error Messages"
-date:  
-parent: "Log and Debug"
----
+# Error Messages
 
 Drill produces several types of error messages. You can ignore issues that contain any of the following syntax:  
 

@@ -1,8 +1,4 @@
----
-title: "Enabling Query Queuing"
-date: 2017-11-14 21:25:01 UTC
-parent: "Query Plans and Tuning"
---- 
+# Enabling Query Queuing 
 
 Drill runs all queries concurrently by default. However, Drill performance increases when a small number of queries run concurrently. You can enable query queues to limit the maximum number of queries that run concurrently. Splitting large queries into multiple small queries and enabling query queuing improves query performance.
  

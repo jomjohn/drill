@@ -1,8 +1,4 @@
----
-title: "Installing the Driver on Windows"
-date: 2017-08-18 17:48:08 UTC
-parent: "Installing the ODBC Driver"
----
+# Installing the Driver on Windows
 The Drill ODBC Driver installer is available for 32- and 64-bit
 applications on Windows. On 64-bit Windows operating systems, you can execute both 32- and 64-bit applications. However, 64-bit applications must use 64-bit drivers, and 32-bit applications must use 32-bit drivers. Make sure that you use the driver version that matches the bitness of the client application machine. 
 					

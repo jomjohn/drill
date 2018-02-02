@@ -1,8 +1,4 @@
----
-title: "Configuring JReport with Drill"
-date:  
-parent: "Using Drill with BI Tools"
----
+# Configuring JReport with Drill
 
 JReport is an embeddable BI solution that empowers users to analyze data and create reports and dashboards. JReport accesses data from Hadoop systems through Apache Drill. By visualizing data through Drill, users can perform their own reporting and data discovery for agile, on-the-fly decision-making.
 

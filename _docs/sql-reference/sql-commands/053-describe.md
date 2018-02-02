@@ -1,8 +1,4 @@
----
-title: "DESCRIBE"
-date: 2016-08-04 00:23:09 UTC
-parent: "SQL Commands"
----
+# DESCRIBE
 The DESCRIBE command returns information about columns in a table, view, or schema.
 
 ## Syntax

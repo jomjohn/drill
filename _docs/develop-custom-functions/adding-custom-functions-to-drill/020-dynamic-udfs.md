@@ -1,8 +1,4 @@
----
-title: "Dynamic UDFs"
-date: 2016-11-22 00:38:20 UTC
-parent: "Adding Custom Functions to Drill"
----
+# Dynamic UDFs
 
 Drill 1.9 introduces support for Dynamic UDFs. The Dynamic UDF feature enables users to register and unregister UDFs on their own using the CREATE FUNCTION USING JAR and DROP FUNCTION USING JAR commands.  
 

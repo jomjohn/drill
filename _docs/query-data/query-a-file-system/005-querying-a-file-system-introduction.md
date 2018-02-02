@@ -1,8 +1,4 @@
----
-title: "Querying a File System Introduction"
-date: 2017-03-13 22:49:09 UTC
-parent: "Querying a File System"
----
+# Querying a File System Introduction
 Files and directories are like standard SQL tables to Drill. You can specify a
 file system "database" as a prefix in queries when you refer to objects across
 databases. In Drill, a file system database consists of a storage plugin name

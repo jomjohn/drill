@@ -1,8 +1,4 @@
----
-title: "Connecting Drill Explorer to Data"
-date: 2017-06-06 23:26:14 UTC
-parent: "Using Drill Explorer"
----
+# Connecting Drill Explorer to Data
 The way you start Drill Explorer differs depending on your platform, but regardless of the platform, Drill must be running. 
 
 ## Connecting Drill Explorer to Data on Linux

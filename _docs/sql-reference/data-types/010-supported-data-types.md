@@ -1,8 +1,4 @@
----
-title: "Supported Data Types"
-date: 2017-04-05 00:09:57 UTC
-parent: "Data Types"
----
+# Supported Data Types
 Drill reads from and writes to data sources having a wide variety of types. 
 
 | SQL Data Type                                        | Description                                                                                                            | Example                                                                        |

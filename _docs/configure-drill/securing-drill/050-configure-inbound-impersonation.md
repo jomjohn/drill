@@ -1,8 +1,4 @@
----
-title: "Configuring Inbound Impersonation"
-date: 2017-08-07 19:02:34 UTC
-parent: "Securing Drill"
----  
+# Configuring Inbound Impersonation  
 
 Drill supports [user impersonation]({{site.baseurl}}/docs/configuring-user-impersonation/)  where queries run as the user that created a connection. However, this user is not necessarily the end user who submits the queries. For example, in a classic three-tier architecture, the end user interacts with Tableau Desktop, which communicates with a Tableau Server, which in turn communicates with a Drill cluster. In this scenario, a proxy user creates a connection, and the queries are submitted to Drill by the proxy user on behalf of the end user, and not by the end user directly. In this particular case, the query needs to be run as the end user.  
 

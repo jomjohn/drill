@@ -1,8 +1,4 @@
----
-title: "Using Drill with BI Tools Introduction"
-date:  
-parent: "Using Drill with BI Tools"
----
+# Using Drill with BI Tools Introduction
 The MapR Drill ODBC driver provides BI tools access to Drill’s flexible query
 capabilities so that users can quickly explore various data sources. The MapR
 Drill ODBC driver includes Drill Explorer, a simple user interface

@@ -1,8 +1,4 @@
----
-title: "Functions for Handling Nulls"
-date:  
-parent: "SQL Functions"
----
+# Functions for Handling Nulls
 
 Drill supports the following functions for handling nulls:
 

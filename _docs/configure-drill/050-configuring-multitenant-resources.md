@@ -1,8 +1,4 @@
----
-title: "Configuring Multitenant Resources"
-date: 2015-12-29 01:12:25 UTC
-parent: "Configuring a Multitenant Cluster"
----
+# Configuring Multitenant Resources
 Drill operations are memory and CPU-intensive. Currently, Drill resources are managed outside of any cluster management service. In a multitenant or any other type of cluster, YARN-enabled or not, you configure memory and memory usage limits for Drill by modifying the `drill-env.sh` file as described in ["Configuring Drill Memory"]({{site.baseurl}}/docs/configuring-drill-memory).
 
 Configure a multitenant cluster manager to account for resources required for Drill. Configuring `drill-env.sh` allocates resources for Drill to use during query execution. It might be necessary to configure the cluster manager from committing the resources to other processes.

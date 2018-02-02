@@ -1,8 +1,4 @@
----
-title: "Using MicroStrategy Analytics with Apache Drill"
-date:  
-parent: "Using Drill with BI Tools"
----
+# Using MicroStrategy Analytics with Apache Drill
 Apache Drill is certified with the MicroStrategy Analytics Enterprise Platform™. You can connect MicroStrategy Analytics Enterprise to Apache Drill and explore multiple data formats instantly on Hadoop. Use the combined power of these tools to get direct access to semi-structured data without having to rely on IT teams for schema creation.
 
 Complete the following steps to use Apache Drill with MicroStrategy Analytics Enterprise:

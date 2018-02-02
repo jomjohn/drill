@@ -1,11 +1,4 @@
----
-layout: post
-title: "Apache Drill Q&A Panelist Spotlight"
-code: apache-drill-qa-panelist-spotlight
-excerpt: Join us on Twitter for a live Q&A on Wednesday, December 17.
-authors: ["tshiran"]
-nodate: true
----
+# Apache Drill Q&A Panelist Spotlight
 <script type="text/javascript" src="//addthisevent.com/libs/1.5.8/ate.min.js"></script>
 <a href="{{ site.baseurl }}/blog/2014/12/11/apache-drill-qa-panelist-spotlight/" title="Add to Calendar" class="addthisevent">
     Add to Calendar

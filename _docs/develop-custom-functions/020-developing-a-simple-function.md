@@ -1,8 +1,4 @@
----
-title: "Developing a Simple Function"
-date:  
-parent: "Develop Custom Functions"
----
+# Developing a Simple Function
 The section presents a brief overview of developing a simple function. The [tutorial]({{site.baseurl}}/docs/tutorial-develop-a-simple-function/) in the next section covers how to create a simple function in more depth.
 
 To develop a simple function, you need to create a class within a Java package that implements Drill’s simple interface

@@ -1,8 +1,4 @@
----
-title: "Sequence Files"
-date:  
-parent: "Data Sources and File Formats"
----
+# Sequence Files
 
 Hadoop Sequence files (https://wiki.apache.org/hadoop/SequenceFile) are flat files storing binary key, value pairs.
 Drill projects sequence files as table with two columns - 'binary_key', 'binary_value' of type VARBINARY.

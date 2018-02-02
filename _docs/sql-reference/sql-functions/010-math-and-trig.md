@@ -1,8 +1,4 @@
----
-title: "Math and Trig"
-date:  
-parent: "SQL Functions"
----
+# Math and Trig
 Drill supports the math functions shown in the following table of math functions plus trig functions listed at the end of this section. Most math functions and all trig functions take these input types:
 
 * INTEGER

@@ -1,8 +1,4 @@
----
-title: "CASE"
-date:  
-parent: "SQL Conditional Expressions"
----
+# CASE
 Executes statements based on one or more equality conditions.
 
 ## Syntax

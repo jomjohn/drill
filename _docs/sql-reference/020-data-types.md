@@ -1,7 +1,4 @@
----
-title: "Data Types"
-parent: "SQL Reference"
----
+# Data Types
 
 
 

@@ -1,8 +1,4 @@
----
-title: "Join Planning Guidelines"
-date: 2016-11-21 22:28:42 UTC
-parent: "Query Plans and Tuning"
---- 
+# Join Planning Guidelines 
 
 Drill uses distributed and broadcast joins to join tables. You can modify configuration settings in Drill to control how Drill plans joins in a query.
 

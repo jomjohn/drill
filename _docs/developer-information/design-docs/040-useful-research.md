@@ -1,8 +1,4 @@
----
-title: "Useful Research"
-date:  
-parent: "Design Docs"
----
+# Useful Research
 ## Drill itself
 
   * Apache Proposal: <http://wiki.apache.org/incubator/DrillProposal>

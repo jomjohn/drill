@@ -1,8 +1,4 @@
----
-title: "Enron Emails"
-date:  
-parent: "Sample Datasets"
----
+# Enron Emails
 ## Quick Stats
 
 The [Enron Email dataset](http://www.cs.cmu.edu/~enron/) contains data from

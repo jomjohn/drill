@@ -1,8 +1,4 @@
----
-title: "Querying Complex Data Introduction"
-date:  
-parent: "Querying Complex Data"
----
+# Querying Complex Data Introduction
 Apache Drill queries do not require prior knowledge of the actual data you are
 trying to access, regardless of its source system or its schema and data
 types. The sweet spot for Apache Drill is a SQL query workload against

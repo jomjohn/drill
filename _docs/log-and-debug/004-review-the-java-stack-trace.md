@@ -1,8 +1,4 @@
----
-title: "Review the Java Stack Trace"
-date:  
-parent: "Log and Debug"
----
+# Review the Java Stack Trace
 
 If a query is failing, you can use jstack to print the Java thread stack traces for the Drillbit process on the executing nodes to determine which part of the query is causing the failure. Drill labels threads based on query coordinates. For example, in the following thread you can see the QueryID, MajorFragementID, and MinorFragmentID, respectively:
 

@@ -1,8 +1,4 @@
----
-title: "Drill Query Execution"
-date:  
-parent: "Architecture"
----
+# Drill Query Execution
 
 When you submit a Drill query, a client or an application sends the query in the form of an SQL statement to a Drillbit in the Drill cluster. A Drillbit is the process running on each active Drill node that coordinates, plans, and executes queries, as well as distributes query work across the cluster to maximize data locality.
 

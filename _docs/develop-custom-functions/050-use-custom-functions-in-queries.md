@@ -1,8 +1,4 @@
----
-title: "Using Custom Functions in Queries"
-date:  
-parent: "Develop Custom Functions"
----
+# Using Custom Functions in Queries
 When you issue a query with a custom function to Drill, Drill searches the
 classpath for the function that matches the request in the query. Once Drill
 locates the function for the request, Drill processes the query and applies

@@ -1,8 +1,4 @@
----
-title: "Value Vectors"
-date:  
-parent: "Design Docs"
----
+# Value Vectors
 This document defines the data structures required for passing sequences of
 columnar data between [Operators](https://docs.google.com/a/maprtech.com/document/d/1zaxkcrK9mYyfpGwX1kAV80z0PCi8abefL45zOzb97dI).
 

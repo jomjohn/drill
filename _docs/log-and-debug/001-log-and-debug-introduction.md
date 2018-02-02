@@ -1,8 +1,4 @@
----
-title: "Log and Debug Introduction"
-date: 2016-06-29 01:29:06 UTC
-parent: "Log and Debug"
----
+# Log and Debug Introduction
 
 You can use the Drill logs in conjunction with query profiles to troubleshoot issues that you encounter. Drill uses Logback as its default logging system. Logback behavior is defined by configurations set in `<drill_installation_directory>/conf/logback.xml`. 
 

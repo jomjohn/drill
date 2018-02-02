@@ -1,11 +1,4 @@
----
-layout: post
-title: "Schema-free JSON Data Infrastructure"
-code: schema-free-json-data-infrastructure
-excerpt: JSON has emerged as the de-facto standard data exchange format. Data infrastructure technologies such as Apache Drill, MongoDB and Elasticsearch are embracing JSON as their native data models, bringing game-changing ease-of-use and agility to developers and analysts.
-date: 2015-1-27 8:50:01
-authors: [tshiran]
----
+# Schema-free JSON Data Infrastructure
 
 JSON has emerged in recent years as the de-facto standard data exchange format. It is being used everywhere. Front-end Web applications use JSON to maintain data and communicate with back-end applications. Web APIs are JSON-based (eg, [Twitter REST APIs](https://dev.twitter.com/rest/public), [Marketo REST APIs](http://developers.marketo.com/documentation/rest/), [GitHub API](https://developer.github.com/v3/)). It's the format of choice for public datasets, operational log files and more.
 

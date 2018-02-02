@@ -1,3 +1,1 @@
----
-title: "Log and Debug"
----
+# Log and Debug

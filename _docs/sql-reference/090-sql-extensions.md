@@ -1,8 +1,4 @@
----
-title: "SQL Extensions"
-date:  
-parent: "SQL Reference"
----
+# SQL Extensions
 Drill extends SQL to explore smaller-scale data in ways not possible with SQL. Using intuitive SQL extensions you work with self-describing data and complex data types. Extensions to SQL include capabilities for exploring self-describing data, such as files and HBase, directly in the native format.
 
 Drill provides language support for pointing to [storage plugin]({{site.baseurl}}/docs/connect-a-data-source-introduction) interfaces that Drill uses to interact with data sources. Use the name of a storage plugin to specify a file system *database* as a prefix in queries when you refer to objects across databases. Query files, including compressed .gz files, and [directories]({{ site.baseurl }}/docs/querying-directories), as you would query an SQL table. You can query multiple files in a directory.

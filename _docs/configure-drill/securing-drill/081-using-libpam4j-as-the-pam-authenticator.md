@@ -1,8 +1,4 @@
----
-title: "Using libpam4j as the PAM Authenticator"
-date: 2017-12-18 01:38:50 UTC
-parent: "Securing Drill"
----
+# Using libpam4j as the PAM Authenticator
 
 
 The libpam4j module is packaged with Drill. The libpam4j module does not have any external dependencies.  

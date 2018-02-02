@@ -1,8 +1,4 @@
----
-title: "Installing the Driver on Linux"
-date: 2017-08-18 17:48:00 UTC
-parent: "Installing the ODBC Driver"
----
+# Installing the Driver on Linux
 Install the Drill ODBC Driver on the machine from which you connect to
 the Drill service. You can install the 32- or 64-bit driver on Linux. Install
 the version of the driver that matches the architecture of the client

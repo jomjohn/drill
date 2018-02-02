@@ -1,8 +1,4 @@
----
-title: "HAVING Clause"
-date:  
-parent: "SQL Commands"
----
+# HAVING Clause
 The HAVING clause filters group rows created by the GROUP BY clause. The HAVING clause is applied to each group of the grouped table, much as a WHERE clause is applied to a select list. If there is no GROUP BY clause, the HAVING clause is applied to the entire result as a single group. The SELECT clause cannot refer directly to any column that does not have a GROUP BY clause.
 
 ## Syntax

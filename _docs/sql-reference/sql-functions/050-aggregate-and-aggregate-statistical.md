@@ -1,8 +1,4 @@
----
-title: "Aggregate and Aggregate Statistical"
-date:  
-parent: "SQL Functions"
----
+# Aggregate and Aggregate Statistical
 
 ## Aggregate Functions
 

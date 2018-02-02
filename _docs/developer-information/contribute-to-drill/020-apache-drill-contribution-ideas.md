@@ -1,8 +1,4 @@
----
-title: "Apache Drill Contribution Ideas"
-date:  
-parent: "Contribute to Drill"
----
+# Apache Drill Contribution Ideas
   * Fixing JIRAs
   * SQL functions 
   * Support for new file format readers/writers

@@ -1,5 +1,2 @@
----
-title: "Configuring a Multitenant Cluster"
-parent: "Configure Drill"
----
+# Configuring a Multitenant Cluster
 

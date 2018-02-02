@@ -1,8 +1,4 @@
----
-title: "Why Drill"
-date:  
-parent: "Getting Started"
----
+# Why Drill
 
 ## Top 10 Reasons to Use Drill
 

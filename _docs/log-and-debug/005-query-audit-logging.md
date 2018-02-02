@@ -1,8 +1,4 @@
----
-title: "Query Audit Logging"
-date: 2016-06-29 01:29:06 UTC
-parent: "Log and Debug"
----
+# Query Audit Logging
 The query log provides audit log functionality for the queries executed by various drillbits in the cluster. The log records important information about queries executed on the Drillbit where Drill runs. The log includes the following information:  
 
 * query text

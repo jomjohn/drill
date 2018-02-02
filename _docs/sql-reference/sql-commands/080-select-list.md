@@ -1,8 +1,4 @@
----
-title: "SELECT List"
-date:  
-parent: "SQL Commands"
----
+# SELECT List
 
 The SELECT list names the columns, functions, and expressions that you want the query to return. The list represents the output of the query.
 

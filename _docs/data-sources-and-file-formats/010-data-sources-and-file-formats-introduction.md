@@ -1,8 +1,4 @@
----
-title: "Data Sources and File Formats Introduction"
-date: 2016-05-05 21:44:33 UTC
-parent: "Data Sources and File Formats"
----
+# Data Sources and File Formats Introduction
 Included in the data sources that  Drill supports are these key data sources:
 
 * HBase

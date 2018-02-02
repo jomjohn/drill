@@ -1,8 +1,4 @@
----
-title: "Querying Sequence Files"
-date: 2016-11-21 22:14:46 UTC
-parent: "Querying a File System"
----
+# Querying Sequence Files
 
 Sequence files are flat files storing binary key value pairs.
 Drill projects sequence files as table with two columns 'binary_key', 'binary_value'.

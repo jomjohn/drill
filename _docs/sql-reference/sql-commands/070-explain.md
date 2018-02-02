@@ -1,8 +1,4 @@
----
-title: "EXPLAIN"
-date:  
-parent: "SQL Commands"
----
+# EXPLAIN
 EXPLAIN is a useful tool for examining the steps that a query goes through
 when it is executed. You can use the EXPLAIN output to gain a deeper
 understanding of the parallel processing that Drill queries exploit. You can

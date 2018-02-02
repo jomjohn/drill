@@ -1,8 +1,4 @@
----
-title: "SQL Window Functions Examples"
-date:  
-parent: "SQL Window Functions"
----
+# SQL Window Functions Examples
 
 The window function examples use a view named q1\_sales that was created from a CSV file named emp_sales and stored in a directory on the local file system.
  

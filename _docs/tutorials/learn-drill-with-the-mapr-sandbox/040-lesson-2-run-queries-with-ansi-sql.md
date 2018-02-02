@@ -1,8 +1,4 @@
----
-title: "Lesson 2: Run Queries with ANSI SQL"
-date:  
-parent: "Learn Drill with the MapR Sandbox"
----
+# Lesson 2: Run Queries with ANSI SQL
 ## Goal
 
 This lesson shows how to do some standard SQL analysis in Apache Drill: for

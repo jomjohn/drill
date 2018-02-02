@@ -1,8 +1,4 @@
----
-title: "Querying System Tables"
-date:  
-parent: "Query Data"
----
+# Querying System Tables
 Drill has a sys database that contains system tables. You can query the system
 tables for information about Drill, including Drill ports, the Drill version
 running on the system, and available Drill options. View the databases in

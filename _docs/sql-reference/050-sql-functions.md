@@ -1,4 +1,1 @@
----
-title: "SQL Functions"
-parent: "SQL Reference"
----
+# SQL Functions

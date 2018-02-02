@@ -1,8 +1,4 @@
----
-title: "Analyzing Data Using Window Functions"
-date:  
-parent: "Tutorials"
----
+# Analyzing Data Using Window Functions
 
 This tutorial briefly introduces the analytics in Drill 1.2, namely ANSI SQL-compliant analytic and window functions. Drill supports the following SQL window functions:
 

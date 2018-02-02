@@ -1,8 +1,4 @@
----
-title: "String Manipulation"
-date: 2016-01-14
-parent: "SQL Functions"
----
+# String Manipulation
 
 You can use the following string functions in Drill queries:
 

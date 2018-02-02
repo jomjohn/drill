@@ -1,8 +1,4 @@
----
-title: "Securing Drill Introduction"
-date: 2017-08-07 19:02:23 UTC
-parent: "Securing Drill"
----
+# Securing Drill Introduction
 
 Before connecting to a data source, you can configure Drill security features and [secure communication pathways]({{site.baseurl}}/docs/secure-communication-paths/) to a secure Drill cluster.  Security features include:
 

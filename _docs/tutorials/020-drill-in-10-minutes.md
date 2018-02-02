@@ -1,9 +1,4 @@
----
-title: "Drill in 10 Minutes"
-date: 2017-12-16 06:24:23 UTC
-parent: "Tutorials"
-description: Get started with Drill in 10 minutes or less.
----
+# Drill in 10 Minutes
 ## Objective
 
 Use Apache Drill to query sample data in 10 minutes. For simplicity, you

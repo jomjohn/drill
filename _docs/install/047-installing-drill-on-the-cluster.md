@@ -1,8 +1,4 @@
----
-title: "Installing Drill on the Cluster"
-date: 2017-12-16 06:24:22 UTC
-parent: "Installing Drill in Distributed Mode"
----
+# Installing Drill on the Cluster
 You install Drill on nodes in the cluster, configure a cluster ID, and add Zookeeper information, as described in the following steps:
 
   1. Download the latest version of Apache Drill [here](http://apache.mirrors.hoobly.com/drill/drill-1.12.0/apache-drill-1.12.0.tar.gz) or from the [Apache Drill mirror site](http://www.apache.org/dyn/closer.cgi/drill/drill-1.12.0/apache-drill-1.12.0.tar.gz) with the command appropriate for your system:  

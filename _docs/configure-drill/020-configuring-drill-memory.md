@@ -1,8 +1,4 @@
----
-title: "Configuring Drill Memory"
-date: 2018-01-30 05:41:06 UTC
-parent: "Configure Drill"
----
+# Configuring Drill Memory
 
 You can configure the amount of direct memory allocated to a Drillbit for query processing in any Drill cluster, multitenant or not. The default memory for a drillbit is 8G, but Drill prefers 16G or more depending on the workload. The total amount of direct memory that a drillbit allocates to query operations cannot exceed the limit set.
 

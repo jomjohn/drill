@@ -1,4 +1,1 @@
----
-title: "Querying a File System"
-parent: "Query Data"
----
+# Querying a File System

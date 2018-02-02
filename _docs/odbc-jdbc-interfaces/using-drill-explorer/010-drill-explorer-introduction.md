@@ -1,8 +1,4 @@
----
-title: "Drill Explorer Introduction"
-date:  
-parent: "Using Drill Explorer"
----
+# Drill Explorer Introduction
 
 Drill Explorer is a user interface for browsing Drill data
 sources, previewing the results of a SQL query, and creating a view. Typically, you use Drill Explorer to explore data or to

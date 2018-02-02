@@ -1,8 +1,4 @@
----
-title: "Selecting Nested Data for a Column"
-date:  
-parent: "Querying Complex Data"
----
+# Selecting Nested Data for a Column
 The following queries show how to access the nested data inside the parts of
 the record that are not flat (such as `topping`). To isolate and return nested
 data, use the `[n]` notation, where `n` is a number that points to a specific

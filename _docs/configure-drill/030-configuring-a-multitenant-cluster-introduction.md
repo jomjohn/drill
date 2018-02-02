@@ -1,8 +1,4 @@
----
-title: "Configuring a Multitenant Cluster Introduction"
-date: 2016-11-21 21:27:46 UTC
-parent: "Configuring a Multitenant Cluster"
----
+# Configuring a Multitenant Cluster Introduction
 
 Drill supports multiple users sharing a Drillbit and running separate Drillbits on different nodes in the cluster. Drill typically runs along side other workloads, including the following:  
 

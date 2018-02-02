@@ -1,8 +1,4 @@
----
-title: "Install Drill Introduction"
-date: 2016-01-04 16:12:23 UTC
-parent: "Install Drill"
----
+# Install Drill Introduction
 
 You can install Drill for use in either embedded mode or distributed mode. [Choose embedded mode]({{site.baseurl}}/docs/installing-drill-in-embedded-mode/) to use Drill only on a single node. Installing Drill for use in embedded mode does not require installation of ZooKeeper. Using Drill in embedded mode requires no configuration.
 

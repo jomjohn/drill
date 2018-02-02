@@ -1,8 +1,4 @@
----
-title: "Selecting Multiple Columns Within Nested Data"
-date:  
-parent: "Querying Complex Data"
----
+# Selecting Multiple Columns Within Nested Data
 The following query goes one step further to extract the JSON data, selecting
 specific `id` and `type` data values _as individual columns_ from inside the
 `topping` array. This query is similar to the previous query, but it returns

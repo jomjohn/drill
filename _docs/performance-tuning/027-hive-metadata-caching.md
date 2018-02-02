@@ -1,8 +1,4 @@
----
-title: "Hive Metadata Caching"
-date: 2016-02-02 23:56:57 UTC
-parent: "Performance Tuning"
----
+# Hive Metadata Caching
 
 Drill caches Hive metadata in a Hive metastore client cache that resides in Drill instead of accessing the Hive metastore directly. During a query, Drill can access metadata faster from the cache than from the Hive metastore. By default, the Hive metastore client cache has a TTL (time to live) of 60 seconds. The TTL is how long cache entries exist before the cache reloads metadata from the Hive metastore. Drill expires an entry in the cache 60 seconds after the following events:  
 

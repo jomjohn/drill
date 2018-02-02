@@ -1,4 +1,1 @@
----
-title: "Installing Drill in Embedded Mode"
-parent: "Install Drill"
----
+# Installing Drill in Embedded Mode

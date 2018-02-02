@@ -1,8 +1,4 @@
----
-title: "Tutorials Introduction"
-date:  
-parent: "Tutorials"
----
+# Tutorials Introduction
 If you've never used Drill, use these tutorials to download, install, and start working with Drill. The tutorials include step-by-step procedures for the following tasks:
 
 * [Drill in 10 Minutes]({{site.baseurl}}/docs/drill-in-10-minutes)  

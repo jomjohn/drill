@@ -1,8 +1,4 @@
----
-title: "Analyzing Social Media"
-date:  
-parent: "Tutorials"
----
+# Analyzing Social Media
 
 This tutorial covers how to analyze Twitter data in native JSON format using Apache Drill. First, you configure an environment to stream the Twitter data filtered on keywords and languages using Apache Flume, and then you analyze the data using Drill. Finally, you run interactive reports and analysis using MicroStrategy.
 

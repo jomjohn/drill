@@ -1,8 +1,4 @@
----
-title: "Query Directory Functions"
-date: 2016-06-29 01:29:06 UTC
-parent: "SQL Reference"
----
+# Query Directory Functions
 You can use the following query directory functions when [querying multiple files or directories]({{site.baseurl}}/docs/querying-directories):
 
 * MAXDIR

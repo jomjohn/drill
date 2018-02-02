@@ -1,8 +1,4 @@
----
-title: "Distributed Mode Prerequisites"
-date: 2016-11-29 22:25:54 UTC
-parent: "Installing Drill in Distributed Mode"
----
+# Distributed Mode Prerequisites
 You can install Apache Drill on one or more nodes to
 run it in a clustered environment.
 

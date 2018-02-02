@@ -1,8 +1,4 @@
----
-title: "Physical Operators"
-date: 2016-11-01 20:49:10 UTC
-parent: "Performance Tuning Reference"
---- 
+# Physical Operators 
 
 This document describes the physical operators that Drill uses in query plans.
 

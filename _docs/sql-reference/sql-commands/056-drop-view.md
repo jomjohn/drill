@@ -1,8 +1,4 @@
----
-title: "DROP VIEW"
-date: 2016-08-04 00:23:10 UTC
-parent: "SQL Commands"
----
+# DROP VIEW
 
 The DROP VIEW command removes a view that was created in a workspace using the CREATE VIEW command. As of Drill 1.8, you can include the IF EXISTS parameter with the DROP VIEW command.
 

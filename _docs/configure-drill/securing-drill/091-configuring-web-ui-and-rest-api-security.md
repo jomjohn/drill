@@ -1,8 +1,4 @@
----
-title: "Configuring Web Console and REST API Security"
-date: 2017-08-07 19:02:44 UTC
-parent: "Securing Drill"
----
+# Configuring Web Console and REST API Security
 Drill 1.5 extends [Drill user security]({{site.baseurl}}/docs/configuring-user-security/) to the Web Console and underlying REST API. As administrator, you can control the extent of access to the Web Console and REST API client applications. For example,
 you can limit the access of certain users to Web Console functionality, such as viewing the in-progress or completed queries of other users. You can limit users from viewing other users' query profiles, who can cancel queries of other users, and other functionality.
 

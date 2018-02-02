@@ -1,8 +1,4 @@
----
-title: "Monitoring Metrics"
-date: 2016-07-14 18:41:09 UTC
-parent: "Performance Tuning"
---- 
+# Monitoring Metrics 
 
 As of Drill 1.7, Drill uses JMX ([Java Management Extensions](https://docs.oracle.com/javase/tutorial/jmx/)) to monitor queries at runtime. JMX provides the architecture to dynamically manage and monitor applications. JMX collects Drill system-level metrics that you can access through the Metrics tab in the Drill Web Console or a remote JMX monitoring tool, such as JConsole or the VisualVM + MBeans plugin. The Web Console Metrics tab contains the collected metrics as tables, counters, histograms, and gauges via JMX.  
 

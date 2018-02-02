@@ -1,8 +1,4 @@
----
-title: "Drill Default Input Format"
-date:  
-parent: "Storage Plugin Configuration"
----
+# Drill Default Input Format
 You can define a default input format to tell Drill what file type exists in a
 workspace within a file system. 
 

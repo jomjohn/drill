@@ -1,8 +1,4 @@
----
-title: "MongoDB Storage Plugin"
-date:  
-parent: "Connect a Data Source"
----
+# MongoDB Storage Plugin
 ## Overview
 
 Drill supports MongoDB 3.0, providing a mongodb storage plugin to connect to MongoDB using MongoDB's latest Java driver. You can run queries

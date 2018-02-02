@@ -1,8 +1,4 @@
----
-title: "Parquet Format"
-date: 2017-08-09 21:05:20 UTC
-parent: "Data Sources and File Formats"
----
+# Parquet Format
 [Apache Parquet](http://parquet.incubator.apache.org/documentation/latest) has the following characteristics:
 
 * Self-describing

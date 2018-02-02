@@ -1,8 +1,4 @@
----
-title: "Lexical Structure"
-date: 2017-11-14 15:31:15 UTC
-parent: "SQL Reference"
----
+# Lexical Structure
 
 A SQL statement used in Drill can include one or more of the following parts:
 

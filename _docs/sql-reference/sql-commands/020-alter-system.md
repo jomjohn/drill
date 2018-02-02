@@ -1,8 +1,4 @@
----
-title: "ALTER SYSTEM"
-date:  
-parent: "SQL Commands"
----
+# ALTER SYSTEM
 The ALTER SYSTEM command permanently changes a system setting. The new setting
 persists across all sessions. Session level settings override system level
 settings.

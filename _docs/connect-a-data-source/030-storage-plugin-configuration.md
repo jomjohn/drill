@@ -1,5 +1,2 @@
----
-title: "Storage Plugin Configuration"
-parent: "Connect a Data Source"
----
+# Storage Plugin Configuration
 

@@ -1,8 +1,4 @@
----
-title: "Learn Drill with the MapR Sandbox"
-date:  
-parent: "Tutorials"
----
+# Learn Drill with the MapR Sandbox
 This tutorial uses the MapR Sandbox, which is a Hadoop environment pre-
 configured with Apache Drill.
 

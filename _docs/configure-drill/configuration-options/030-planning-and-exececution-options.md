@@ -1,8 +1,4 @@
----
-title: "Planning and Execution Options"
-date:  
-parent: "Configuration Options"
----
+# Planning and Execution Options
 You can set Drill query planning and execution options per cluster, at the
 system or session level. Options set at the session level only apply to
 queries that you run during the current Drill connection. Options set at the

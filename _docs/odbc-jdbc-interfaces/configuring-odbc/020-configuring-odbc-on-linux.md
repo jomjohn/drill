@@ -1,8 +1,4 @@
----
-title: "Configuring ODBC on Linux"
-date: 2017-08-18 17:47:57 UTC
-parent: "Configuring ODBC"
----
+# Configuring ODBC on Linux
 
 ODBC driver managers use configuration files to define and configure ODBC data
 sources and drivers. To configure an ODBC connection for Linux, complete the following

@@ -1,6 +1,3 @@
----
-title: "Design Docs"
-parent: "Developer Information"
----
+# Design Docs
 
 

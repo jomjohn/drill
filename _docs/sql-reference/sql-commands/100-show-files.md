@@ -1,8 +1,4 @@
----
-title: "SHOW FILES"
-date:  
-parent: "SQL Commands"
----
+# SHOW FILES
 The SHOW FILES command provides a quick report of the file systems that are
 visible to Drill for query purposes. This command is unique to Apache Drill.
 

@@ -1,8 +1,4 @@
----
-title: "Using Information Builders’ WebFOCUS with Apache Drill"
-date:  
-parent: "Using Drill with BI Tools"
----
+# Using Information Builders’ WebFOCUS with Apache Drill
 
 This document describes how to configure Information Builders’ WebFOCUS 8.2 with Apache Drill. You can use WebFOCUS with Drill to couple the visualization and analytic capabilities of WebFOCUS with the powerful SQL capabilities of Drill.  
 

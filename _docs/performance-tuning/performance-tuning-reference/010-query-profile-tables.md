@@ -1,8 +1,4 @@
----
-title: "Query Profile Column Descriptions"
-date: 2016-11-21 22:28:41 UTC
-parent: "Performance Tuning Reference"
---- 
+# Query Profile Column Descriptions 
 
 The following tables provide descriptions listed in each of the tables for a query profile.  
 

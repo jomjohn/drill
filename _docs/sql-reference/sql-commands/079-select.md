@@ -1,8 +1,4 @@
----
-title: "SELECT"
-date: 2017-03-14 22:11:02 UTC
-parent: "SQL Commands"
----
+# SELECT
 Drill supports the following ANSI standard clauses in the SELECT statement:
 
   * WITH clause

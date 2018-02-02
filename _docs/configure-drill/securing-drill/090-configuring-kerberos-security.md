@@ -1,8 +1,4 @@
----
-title: "Configuring Kerberos Security"
-date: 2017-08-18 17:47:38 UTC
-parent: "Securing Drill"
----
+# Configuring Kerberos Security
 Drill 1.11 supports Kerberos v5 network security authentication and encryption for Kerberos. To use Kerberos with Drill and establish connectivity, use the JDBC driver packaged with Drill.
 
 Kerberos allows trusted hosts to prove their identity over a network to an information system.  A Kerberos *realm* is unique authentication domain. A centralized *key distribution center (KDC)* coordinates authentication between a clients and servers. Clients and servers obtain and use tickets from the KDC using a special *keytab* file to communicate with the KDC and prove their identity to gain access to a drillbit.  Administrators must create *principal* (user or server) identities and passwords to ensure the secure exchange of mutual authentication information passed to and from the drillbit.   

@@ -1,8 +1,4 @@
----
-title: "Tableau Examples"
-date:  
-parent: "Using Drill with BI Tools"
----
+# Tableau Examples
 You can generate reports in Tableau using ODBC connections to Drill data
 sources on Windows. Each example in this section takes you through the steps to create a
 DSN to a Drill data source and then access the data in Tableau 8.1.

@@ -1,8 +1,4 @@
----
-title: "Querying Directories"
-date: 2016-11-21 22:14:46 UTC
-parent: "Querying a File System"
----
+# Querying Directories
 You can store multiple files in a directory and query them as if they were a
 single entity. You do not have to explicitly join the files. The files must be
 compatible, in the sense that they must have comparable data types and columns

@@ -1,8 +1,4 @@
----
-title: "Creating Custom Authenticators"
-date: 2017-06-22 20:42:14 UTC
-parent: "Adding Custom Functions to Drill"
----
+# Creating Custom Authenticators
 
 
 Administrators can use the template provided here to develop and implement a custom username/password based authenticator.

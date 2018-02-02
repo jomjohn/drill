@@ -1,8 +1,4 @@
----
-title: "Lesson 1: Learn about the Data Set"
-date:  
-parent: "Learn Drill with the MapR Sandbox"
----
+# Lesson 1: Learn about the Data Set
 ## Goal
 
 This lesson is simply about discovering what data is available, in what

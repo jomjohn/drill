@@ -1,7 +1,4 @@
----
-title: "Apache Drill M1 Release Notes (Apache Drill Alpha)"
-parent: "Release Notes"
----
+# Apache Drill M1 Release Notes (Apache Drill Alpha)
 ### Milestone 1 Goals
 
 The first release of Apache Drill is designed as a technology preview for

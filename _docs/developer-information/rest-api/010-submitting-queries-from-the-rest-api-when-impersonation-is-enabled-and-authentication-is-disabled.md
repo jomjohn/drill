@@ -1,8 +1,4 @@
----
-title: "Submitting Queries from the REST API when Impersonation is Enabled and Authentication is Disabled"
-date: 2018-01-22 20:29:50 UTC
-parent: "REST API"
----  
+# Submitting Queries from the REST API when Impersonation is Enabled and Authentication is Disabled  
 
 
 As of Drill 1.12, a user can enter a username to successfully run queries from the REST API when impersonation is enabled and authentication is disabled.  

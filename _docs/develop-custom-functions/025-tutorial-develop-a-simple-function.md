@@ -1,8 +1,4 @@
----
-title: "Tutorial: Develop a Simple Function"
-date: 2016-11-18 21:59:16 UTC
-parent: "Develop Custom Functions"
----
+# Tutorial: Develop a Simple Function
 
 You can create complex functions having advanced features, but for example purposes, this tutorial covers how to create a simple MASK function. You extend the Drill query engine using the [Drill Simple Function interface](https://github.com/apache/drill/blob/master/exec/java-exec/src/main/java/org/apache/drill/exec/expr/DrillSimpleFunc.java):
 

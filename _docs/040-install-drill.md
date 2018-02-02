@@ -1,6 +1,4 @@
----
-title: "Install Drill"
----
+# Install Drill
 
 
 

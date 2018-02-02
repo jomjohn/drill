@@ -1,8 +1,4 @@
----
-title: "Developing an Aggregate Function"
-date:  
-parent: "Develop Custom Functions"
----
+# Developing an Aggregate Function
 The API for developing aggregate custom functions is at the alpha stage and intended for experimental use only. To experiment with this API, create a class within a Java package that implements Drill’s aggregate
 interface into the program. Include the required information for the function.
 Your function must include data types that Drill supports, such as INTEGER or

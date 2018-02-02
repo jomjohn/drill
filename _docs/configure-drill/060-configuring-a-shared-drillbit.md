@@ -1,8 +1,4 @@
----
-title: "Configuring Resources for a Shared Drillbit"
-date: 2016-11-21 22:42:10 UTC
-parent: "Configuring a Multitenant Cluster"
----
+# Configuring Resources for a Shared Drillbit
 To manage a cluster in which multiple users share a Drillbit, you configure Drill queuing and parallelization in addition to memory, as described in the previous section, ["Configuring Drill Memory"]({{site.baseurl}}/docs/configuring-drill-memory/).
 
 ##Configuring Query Queuing

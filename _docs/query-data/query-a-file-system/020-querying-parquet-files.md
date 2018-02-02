@@ -1,8 +1,4 @@
----
-title: "Querying Parquet Files"
-date: 2016-11-21 22:14:44 UTC
-parent: "Querying a File System"
----
+# Querying Parquet Files
 
 The Drill installation includes a `sample-data` directory with Parquet files
 that you can query. Use SQL to query the `region.parquet` and

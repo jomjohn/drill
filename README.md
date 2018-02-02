@@ -21,40 +21,7 @@ To automatically add the last-modified-on date, a one-time local setup is requir
           # Contents of .git/hooks/pre-commit
 
           git diff --cached --name-status | grep "^M" | while read a b; do
-            cat $b | sed "/---.*/,/---.*/s/^date:.*$/date: $(date -u "+%Y-%m-%d")/" > tmp
-            mv tmp $b
-            git add $b
-          done
-
-2. Make the file executable.
-
-          chmod +x pre-commit
-
-On any page you create, in addition to the title: and parent:, you now need to add date: to the front matter of any file you create. For example:
-
-          ---
-          title: "Configuring Multitenant Resources"
-          parent: "Configuring a Multitenant Cluster"
-          date: 
-          ---
-
-Do not fill in or alter the date: field. Jekyll and git take care of that when you commit the file.  
-
-## One Time Setup for Redirecting gh-pages
-
-Locally install the jekyll-redirect-from gem:
-
-     gem install jekyll-redirect-from
-
-On any page you want to redirect, add the redirect_to: and the URL to the front matter. For example:
-
-          ---
-          title: "Configuring Multitenant Resources"
-          parent: "Configuring a Multitenant Cluster"
-          date: 
-          redirect_to:
-            - http://<new_url>
-          ---
+            cat $b | sed "/# Configuring Multitenant Resources
 
 # Compiling the Website
 

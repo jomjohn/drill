@@ -1,8 +1,4 @@
----
-title: "Analyzing Highly Dynamic Datasets"
-date: 2017-12-16 06:24:23 UTC
-parent: "Tutorials"
----
+# Analyzing Highly Dynamic Datasets
 
 Today’s data is dynamic and application-driven. The growth of a new era of business applications driven by industry trends such as web, social, mobile, and Internet of Things are generating datasets with new data types and new data models. These applications are iterative, and the associated data models typically are semi-structured, schema-less and constantly evolving. Semi-structured data models can be complex/nested, schema-less, and capable of having varying fields in every single row and of constantly evolving as fields get added and removed frequently to meet business requirements. 
 

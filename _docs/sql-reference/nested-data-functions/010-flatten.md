@@ -1,8 +1,4 @@
----
-title: "FLATTEN"
-date:  
-parent: "Nested Data Functions"
----
+# FLATTEN
 FLATTEN separates the elements in a repeated field into individual records.
 
 ## Syntax

@@ -1,8 +1,4 @@
----
-title: "Persistent Configuration Storage"
-date: 2017-08-08 21:29:41 UTC
-parent: "Configuration Options"
----
+# Persistent Configuration Storage
 Drill stores persistent configuration data in a persistent configuration store
 (PStore). The data stored in a PStore includes state information for storage plugins, query profiles, and ALTER SYSTEM settings. This data is encoded in JSON or Protobuf format. Drill can write this data to the local file system or a distributed file system, such as HDFS. As of Drill 1.11, Drill can [store query profiles in memory](https://drill.apache.org/docs/persistent-configuration-storage/#storing-query-profiles-in-memory) instead of writing the profiles to disk.
 

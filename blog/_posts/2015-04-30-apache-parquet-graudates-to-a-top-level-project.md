@@ -1,10 +1,4 @@
----
-layout: post
-title: "Apache Parquet Graduates to a Top-Level Project"
-code: apache-parquet-graudates-to-a-top-level-project
-excerpt: The Apache Parquet project has graduated to a top-level project (TLP) at the Apache Software Foundation.
-authors: ["tshiran"]
----
+# Apache Parquet Graduates to a Top-Level Project
 It's an exciting day. Apache Parquet, the de-facto standard columnar format for Hadoop, has graduated to an Apache top-level project.
 
 The Drill project supports a variety of file formats, but Parquet is the highest performing format, and it's the one we recommend to anyone who wants to maximize the performance of their queries. We've had the pleasure of working closely with the Parquet community for over two years, and it's exciting to see how much the project has evolved.

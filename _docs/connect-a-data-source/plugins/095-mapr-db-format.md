@@ -1,8 +1,4 @@
----
-title: "MapR-DB Format"
-date: 2018-01-30 18:38:55 UTC
-parent: "Connect a Data Source"
----
+# MapR-DB Format
 
 The MapR-DB format is not included in the Apache Drill release. Drill includes a [maprdb format](https://maprdocs.mapr.com/home/Drill/UsingMapRdbFormat.html) for MapR-DB that is defined within the default dfs storage plugin configuration when you install Drill from the mapr-drill package on a MapR node. 
 

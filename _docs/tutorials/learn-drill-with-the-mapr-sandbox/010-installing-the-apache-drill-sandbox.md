@@ -1,8 +1,4 @@
----
-title: "Installing the Apache Drill Sandbox"
-date:  
-parent: "Learn Drill with the MapR Sandbox"
----
+# Installing the Apache Drill Sandbox
 ## Prerequisites
 
 The MapR Sandbox with Apache Drill runs on VMware Player and VirtualBox, free

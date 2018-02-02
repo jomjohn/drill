@@ -1,8 +1,4 @@
----
-title: "Configuring ODBC on Mac OS X"
-date: 2017-08-17 18:55:07 UTC
-parent: "Configuring ODBC"
----
+# Configuring ODBC on Mac OS X
 ODBC driver managers use configuration files to define and configure ODBC data
 sources and drivers. To configure an ODBC connection for Mac OS X, note the following
 procedure:

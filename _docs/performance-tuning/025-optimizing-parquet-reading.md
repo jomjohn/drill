@@ -1,8 +1,4 @@
----
-title: "Optimizing Parquet Metadata Reading"
-date: 2017-08-10 22:24:37 UTC
-parent: "Performance Tuning"
----
+# Optimizing Parquet Metadata Reading
 
 Parquet metadata caching is a feature that enables Drill to read a single metadata cache file instead of retrieving metadata from multiple Parquet files during the query-planning phase. 
 Parquet metadata caching is available for Parquet data in Drill 1.2 and later. To enable Parquet metadata caching, issue the REFRESH TABLE METADATA <path to table> command. When you run this command Drill generates a metadata cache file.  

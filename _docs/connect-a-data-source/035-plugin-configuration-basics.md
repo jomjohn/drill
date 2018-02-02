@@ -1,8 +1,4 @@
----
-title: "Plugin Configuration Basics"
-date: 2017-08-08 02:22:58 UTC
-parent: "Storage Plugin Configuration"
----
+# Plugin Configuration Basics
 When you add or update storage plugin configurations on one Drill node in a 
 cluster having multiple installations of Drill, Drill broadcasts the information to other Drill nodes 
 to synchronize the storage plugin configurations. You do not need to

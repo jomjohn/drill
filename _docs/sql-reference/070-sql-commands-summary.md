@@ -1,4 +1,1 @@
----
-title: "SQL Commands"
-parent: "SQL Reference"
----
+# SQL Commands

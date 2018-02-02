@@ -1,4 +1,1 @@
----
-title: "Query Plans and Tuning"
-parent: "Performance Tuning"
---- 
+# Query Plans and Tuning 

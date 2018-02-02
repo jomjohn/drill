@@ -1,8 +1,4 @@
----
-title: "Partition Pruning Introduction"
-date: 2016-08-15 18:40:27 UTC
-parent: "Partition Pruning"
---- 
+# Partition Pruning Introduction 
 
 Partition pruning is a performance optimization that limits the number of files and partitions that Drill reads when querying file systems and Hive tables. When you partition data, Drill only reads a subset of the files that reside in a file system or a subset of the partitions in a Hive table when a query matches certain filter criteria.
 

@@ -1,8 +1,4 @@
----
-title: "Analyzing the Yelp Academic Dataset"
-date:  
-parent: "Tutorials"
----
+# Analyzing the Yelp Academic Dataset
 Apache Drill is one of the fastest growing open source projects, with the community making rapid progress with monthly releases. The key difference is Drill’s agility and flexibility.
 Along with meeting the table stakes for SQL-on-Hadoop, which is to achieve low
 latency performance at scale, Drill allows users to analyze the data without

@@ -1,4 +1,1 @@
----
-title: "SQL Window Functions"
-parent: "SQL Reference"
----
+# SQL Window Functions

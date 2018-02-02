@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//MapR//DITA Map//EN" "map.dtd">
+<map>
+    <title>Apache Drill</title>
+    <!-- MapR version, add the <topicmeta> below -->
+    <topicmeta>
+        <copyright>
+            <copyryear year=""/>
+            <copyrholder></copyrholder>
+        </copyright>
+        <prodinfo>
+            <prodname></prodname>
+            <vrmlist>
+                <vrm version="DRILL"/> 
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <topichead>
+        <topicmeta><navtitle>Documentation</navtitle></topicmeta>
+        
+
+        <topichead>
+            <topicmeta><navtitle>Getting Started</navtitle></topicmeta>
+            <topicref href="_docs/getting-started/010-drill-introduction.md" format="markdown"/>
+            <topicref href="_docs/getting-started/020-why-drill.md" format="markdown"/>
+        </topichead>
+    
+        <topichead>
+            <topicmeta><navtitle>Architecture</navtitle></topicmeta>
+            <topicref href="_docs/architecture/010-architecture-introduction.md" format="markdown"/>
+            <topicref href="_docs/architecture/015-drill-query-execution.md" format="markdown"/>
+            <topicref href="_docs/architecture/020-core-modules.md" format="markdown"/>
+            <topicref href="_docs/architecture/030-performance.md" format="markdown"/>
+        </topichead>
+        
+        <topichead>
+            <topicmeta><navtitle>Tutorials</navtitle></topicmeta>
+            <topicref href="_docs/tutorials/010-tutorials-introduction.md" format="markdown"/>
+            <topicref href="_docs/tutorials/020-drill-in-10-minutes.md" format="markdown"/>
+            <topicref href="_docs/tutorials/030-analyzing-the-yelp-academic-dataset.md" format="markdown"/>
+            <topicref href="_docs/tutorials/040-learn-drill-with-the-mapr-sandbox.md" format="markdown">
+                <topicref
+                    href="_docs/tutorials/learn-drill-with-the-mapr-sandbox/005-about-the-mapr-sandbox.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/tutorials/learn-drill-with-the-mapr-sandbox/010-installing-the-apache-drill-sandbox.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/tutorials/learn-drill-with-the-mapr-sandbox/020-getting-to-know-the-drill-sandbox.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/tutorials/learn-drill-with-the-mapr-sandbox/030-lesson-1-learn-about-the-data-set.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/tutorials/learn-drill-with-the-mapr-sandbox/040-lesson-2-run-queries-with-ansi-sql.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/tutorials/learn-drill-with-the-mapr-sandbox/050-lesson-3-run-queries-on-complex-data-types.md"
+                    format="markdown"/>
+                <topicref href="_docs/tutorials/learn-drill-with-the-mapr-sandbox/060-summary.md"
+                    format="markdown"/>
+            </topicref>
+            <topicref href="_docs/tutorials/050-analyzing-highly-dynamic-datasets.md" format="markdown"/>
+            <topicref href="_docs/tutorials/060-analyzing-social-media.md" format="markdown"/>
+            <topicref href="_docs/tutorials/070-analyzing-data-using-window-functions.md" format="markdown"/>        
+        </topichead>
+        
+        <topichead>
+            <topicmeta><navtitle>Install Drill</navtitle></topicmeta>
+            <topicref href="_docs/install/010-install-drill-introduction.md" format="markdown"/>
+            <topicref href="_docs/install/020-migrating-parquet-data.md" format="markdown"/>
+            <topichead>
+                <topicmeta><navtitle>Installing Drill in Embedded Mode</navtitle></topicmeta>
+                <topicref
+                    href="_docs/install/installing-drill-in-embedded-mode/010-embedded-mode-prerequisites.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/install/installing-drill-in-embedded-mode/020-installing-drill-on-linux-and-mac-os-x.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/install/installing-drill-in-embedded-mode/030-starting-drill-on-linux-and-mac-os-x.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/install/installing-drill-in-embedded-mode/040-installing-drill-on-windows.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/install/installing-drill-in-embedded-mode/050-starting-drill-on-windows.md"
+                    format="markdown"/>
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>Installing Drill in Distributed Mode</navtitle></topicmeta>
+                <topicref href="_docs/install/045-distributed-mode-prerequisites.md" format="markdown"/>
+                <topicref href="_docs/install/047-installing-drill-on-the-cluster.md" format="markdown"/>
+                <topicref href="_docs/install/050-starting-drill-in-distributed-mode.md" format="markdown"/>
+            </topichead>
+            <topicref href="_docs/install/060-starting-the-web-ui.md" format="markdown"/>
+            <topicref href="_docs/install/070-identifying-multiple-drill-versions-in-a-cluster.md"
+                format="markdown"/>        
+        </topichead>
+        <topichead>
+            <topicmeta><navtitle>Configure Drill</navtitle></topicmeta>
+            <topicref href="_docs/configure-drill/010-configure-drill-introduction.md" format="markdown"/>
+            <topicref href="_docs/configure-drill/020-configuring-drill-memory.md" format="markdown"/>
+            <topichead>
+                <topicmeta>
+                    <navtitle>Securing Drill</navtitle>
+                </topicmeta>
+                <topicref href="_docs/configure-drill/securing-drill/010-securing-drill-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/securing-drill/020-secure-communication-paths.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/securing-drill/030-roles-privileges.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/securing-drill/040-configuring-user-impersonation.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/securing-drill/050-configure-inbound-impersonation.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/configure-drill/securing-drill/060-configuring-user-impersonation-with-hive-authorization.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/securing-drill/070-configuring-user-security.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/securing-drill/080-configuring-plain-security.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/configure-drill/securing-drill/081-using-libpam4j-as-the-pam-authenticator.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/configure-drill/securing-drill/082-using-jpam-as-the-pam-authenticator.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/securing-drill/090-configuring-kerberos-security.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/configure-drill/securing-drill/091-configuring-web-ui-and-rest-api-security.md"
+                    format="markdown"/>
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>Configuring a Multitenant Cluster</navtitle></topicmeta>
+                <topicref href="_docs/configure-drill/030-configuring-a-multitenant-cluster-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/050-configuring-multitenant-resources.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/060-configuring-a-shared-drillbit.md" format="markdown"/>        
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>Configuration Options</navtitle></topicmeta>
+                <topicref
+                    href="_docs/configure-drill/configuration-options/010-configuration-options-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/configure-drill/configuration-options/020-start-up-options.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/configure-drill/configuration-options/030-planning-and-exececution-options.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/configure-drill/configuration-options/040-persistent-configuration-storage.md"
+                    format="markdown"/>        
+            </topichead>
+            <topicref href="_docs/configure-drill/100-ports-used-by-drill.md" format="markdown"/>
+            <topicref href="_docs/configure-drill/120-configuring-the-drill-shell.md" format="markdown"/>
+            
+            
+        </topichead>
+        
+      <topichead>
+            <topicmeta><navtitle>Connect a Data Source</navtitle></topicmeta>
+            <topicref href="_docs/connect-a-data-source/020-storage-plugin-registration.md" format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/010-connect-a-data-source-introduction.md"
+                format="markdown"/>
+            <topichead>
+                <topicmeta>
+                    <navtitle>Storage Plugin Configuration</navtitle>
+                </topicmeta>
+                <topicref href="_docs/connect-a-data-source/035-plugin-configuration-basics.md"
+                    format="markdown"/>
+                <topicref href="_docs/connect-a-data-source/050-workspaces.md" format="markdown"/>
+                <topicref href="_docs/connect-a-data-source/080-drill-default-input-format.md"
+                    format="markdown"/>
+            </topichead>
+            <topicref href="_docs/connect-a-data-source/plugins/040-file-system-storage-plugin.md"
+                format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/plugins/060-hbase-storage-plugin.md" format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/plugins/070-hive-storage-plugin.md" format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/plugins/080-rdbms-storage-plugin.md" format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/plugins/090-mongodb-storage-plugin.md"
+                format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/plugins/095-mapr-db-format.md" format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/plugins/110-s3-storage-plugin.md" format="markdown"/>
+            <topicref href="_docs/connect-a-data-source/plugins/111-httpd-storage-plugin.md" format="markdown"/>
+        </topichead>
+        
+        <topichead>
+            <topicmeta><navtitle>ODBC/JDBC Interfaces</navtitle></topicmeta>
+            <topicref href="_docs/odbc-jdbc-interfaces/020-using-jdbc-with-squirrel-on-windows.md"
+                format="markdown"/>
+            <topicref href="_docs/odbc-jdbc-interfaces/010-interfaces-introduction.md" format="markdown"/>
+            <topicref href="_docs/odbc-jdbc-interfaces/015-using-jdbc-driver.md" format="markdown"/>  
+            <topichead>
+                <topicmeta><navtitle>Installing the ODBC Driver</navtitle></topicmeta>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/installing-the-odbc-driver/010-installing-the-driver-on-linux.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/installing-the-odbc-driver/020-installing-the-driver-on-mac-os-x.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/installing-the-odbc-driver/030-installing-the-driver-on-windows.md"
+                    format="markdown"/>        
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>Configuring ODBC</navtitle></topicmeta>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/configuring-odbc/010-odbc-configuration-reference.md"
+                    format="markdown"/>
+                <topicref href="_docs/odbc-jdbc-interfaces/configuring-odbc/011-logging-and-tracing.md"
+                    format="markdown"/>
+                <topicref href="_docs/odbc-jdbc-interfaces/configuring-odbc/020-configuring-odbc-on-linux.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/configuring-odbc/025-configuring-odbc-on-mac-os-x.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/configuring-odbc/030-configuring-odbc-on-windows.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/configuring-odbc/040-testing-the-odbc-connection.md"
+                    format="markdown"/>        
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>Using Drill Explorer</navtitle></topicmeta>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-explorer/010-drill-explorer-introduction.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-explorer/020-connecting-drill-explorer-to-data.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-explorer/030-browsing-data-and-creating-views.md"
+                    format="markdown"/>        
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>Using Drill with BI Tools</navtitle></topicmeta>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/010-using-odbc-with-bi-tools-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/020-tableau-examples.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/030-using-microstrategy-analytics-with-apache-drill.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/040-using-tibco-spotfire-desktop-with-drill.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/050-configuring-spotfire-server.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/055-using-qliksense-with-drill.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/059-using-apache-drill-with-tableau-10.2.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/060-using-apache-drill-with-tableau-9-desktop.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/070-using-apache-drill-with-tableau-9-server.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/075-using-apache-drill-with-webfocus.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/odbc-jdbc-interfaces/using-drill-with-bi-tools/090-configuring-jreport-with-drill.md"
+                    format="markdown"/>        
+            </topichead>
+        </topichead>
+     
+        <topichead>
+            <topicmeta><navtitle>Query Data</navtitle></topicmeta>
+            <topicref href="_docs/query-data/010-query-data-introduction.md" format="markdown"/>        
+            
+            <topichead>
+                <topicmeta><navtitle>Querying a File System</navtitle></topicmeta>
+                <topicref
+                    href="_docs/query-data/query-a-file-system/005-querying-a-file-system-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/query-a-file-system/009-querying-avro-files.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/query-a-file-system/010-querying-json-files.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/query-a-file-system/020-querying-parquet-files.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/query-a-file-system/030-querying-plain-text-files.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/query-a-file-system/040-querying-directories.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/query-a-file-system/050-querying-sequence-files.md"
+                    format="markdown"/>        
+            </topichead>
+            <topicref href="_docs/query-data/030-querying-hbase.md" format="markdown"/>
+            <topichead>
+                <topicmeta><navtitle>Querying Complex Data</navtitle></topicmeta>
+                <topicref
+                    href="_docs/query-data/querying-complex-data/005-querying-complex-data-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/querying-complex-data/010-sample--data-donuts.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/querying-complex-data/020-selecting-flat-data.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/query-data/querying-complex-data/030-using-sql-functions-clauses-and-joins.md"
+                    format="markdown"/>
+                <topicref href="_docs/query-data/querying-complex-data/040-selecting-nested-data.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/query-data/querying-complex-data/050-selecting-multiple-columns-within-nested-data.md"
+                    format="markdown"/>        
+            </topichead>
+            <topicref href="_docs/query-data/080-monitoring-and-canceling-queries-in-the-Drill-Web-UI.md"
+                format="markdown"/>
+            <topicref href="_docs/query-data/050-querying-hive.md" format="markdown"/>
+            <topicref href="_docs/query-data/060-querying-the-information-schema.md" format="markdown"/>
+            <topicref href="_docs/query-data/070-query-sys-tbl.md" format="markdown"/>
+        </topichead>
+        
+        <topichead>
+            <topicmeta><navtitle>Performance Tuning</navtitle></topicmeta>
+            <topicref href="_docs/performance-tuning/010-performance-tuning-introduction.md" format="markdown"/>        
+            
+            <topichead>
+                <topicmeta><navtitle>Partition Pruning</navtitle></topicmeta>
+                <topicref
+                    href="_docs/performance-tuning/partition-pruning/010-partition-pruning-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/performance-tuning/partition-pruning/030-using-partition-pruning.md"
+                    format="markdown"/>        
+            </topichead>
+            <topicref href="_docs/performance-tuning/024-aynchronous-parquet-reader.md" format="markdown"/>
+            <topicref href="_docs/performance-tuning/025-optimizing-parquet-reading.md" format="markdown"/>
+            <topicref href="_docs/performance-tuning/026-parquet-filter-pushdown.md" format="markdown"/>
+            <topicref href="_docs/performance-tuning/027-hive-metadata-caching.md" format="markdown"/>
+            <topicref href="_docs/performance-tuning/030-choosing-a-storage-format.md" format="markdown"/>
+            
+            <topichead>
+                <topicmeta><navtitle>Query Plans and Tuning</navtitle></topicmeta>
+                <topicref
+                    href="_docs/performance-tuning/query-plans-and-tuning/010-query-plans-and-tuning-introduction.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/performance-tuning/query-plans-and-tuning/020-join-planning-guidelines.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/performance-tuning/query-plans-and-tuning/030-guidelines-for-optimizing-aggregation.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/performance-tuning/query-plans-and-tuning/040-modifying-query-planning-options.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/performance-tuning/query-plans-and-tuning/050-sort-based-and-hash-based-memory-constrained-operators.md"
+                    format="markdown"/>
+                <topicref href="_docs/performance-tuning/query-plans-and-tuning/060-enabling-query-queuing.md"
+                    format="markdown"/>
+                <topicref href="_docs/performance-tuning/query-plans-and-tuning/065-throttling.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/performance-tuning/query-plans-and-tuning/070-controlling-parallelization-to-balance-performance-with-multi-tenancy.md"
+                    format="markdown"/>        
+            </topichead>
+            
+            <topichead>
+                <topicmeta><navtitle>Identifying Performance Issues</navtitle></topicmeta>
+                <topicref href="_docs/performance-tuning/identifying-performance-issues/010-query-plans.md"
+                    format="markdown"/>
+                <topicref href="_docs/performance-tuning/identifying-performance-issues/020-query-profiles.md"
+                    format="markdown"/>        
+            </topichead>
+            
+            <topichead>
+                <topicmeta><navtitle>Performance Tuning Reference</navtitle></topicmeta>
+                <topicref
+                    href="_docs/performance-tuning/performance-tuning-reference/010-query-profile-tables.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/performance-tuning/performance-tuning-reference/020-physical-operators.md"
+                    format="markdown"/>        
+            </topichead>
+        </topichead>
+    
+    
+      <topichead>
+            <topicmeta><navtitle>Log and Debug</navtitle></topicmeta>
+            <topicref href="_docs/log-and-debug/001-log-and-debug-introduction.md" format="markdown"/>
+            <topicref href="_docs/log-and-debug/002-error-messages.md" format="markdown"/>
+            <topicref href="_docs/log-and-debug/003-modify-logback.xml.md" format="markdown"/>
+            <topicref href="_docs/log-and-debug/004-review-the-java-stack-trace.md" format="markdown"/>
+            <topicref href="_docs/log-and-debug/005-query-audit-logging.md" format="markdown"/>        
+        </topichead>
+        
+        <topichead>
+            <topicmeta><navtitle>SQL Reference</navtitle></topicmeta>
+            <topicref href="_docs/sql-reference/010-sql-reference-introduction.md" format="markdown"/>
+           <topichead>
+                <topicmeta><navtitle>Data Types</navtitle></topicmeta>
+                <topicref href="_docs/sql-reference/data-types/010-supported-data-types.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/data-types/020-date-time-and-timestamp.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/data-types/030-handling-different-data-types.md"
+                    format="markdown"/>        
+            </topichead>
+            <!--   BAD    -->  <topicref href="_docs/sql-reference/030-lexical-structure.md" format="markdown"/> 
+             <topicref href="_docs/sql-reference/040-operators.md" format="markdown"/>
+       
+           
+            
+          <topichead>
+                <topicmeta><navtitle>SQL Functions</navtitle></topicmeta>
+                <topicref href="_docs/sql-reference/sql-functions/005-about-sql-function-examples.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-functions/010-math-and-trig.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-functions/020-data-type-conversion.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-functions/030-date-time-functions-and-arithmetic.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-functions/040-string-manipulation.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-functions/050-aggregate-and-aggregate-statistical.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-functions/060-functions-for-handling-nulls.md"
+                    format="markdown"/>        
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>SQL Window Functions</navtitle></topicmeta>
+                <topicref
+                    href="_docs/sql-reference/sql-window-functions/010-sql-window-functions-introduction.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-window-functions/020-aggregate-window-functions.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-window-functions/030-ranking-window-functions.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-window-functions/035-value-window-functions.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-window-functions/040-sql-window-functions-examples.md"
+                    format="markdown"/>        
+            </topichead>
+            <topichead>
+                <topicmeta><navtitle>Nested Data Functions</navtitle></topicmeta>
+                <topicref href="_docs/sql-reference/nested-data-functions/005-nested-data-limitations.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/nested-data-functions/010-flatten.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/nested-data-functions/020-kvgen.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/nested-data-functions/030-repeated-count.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/nested-data-functions/040-repeated-contains.md"
+                    format="markdown"/>        
+            </topichead> 
+           
+            <topicref href="_docs/sql-reference/065-query-directory-functions.md" format="markdown"/>
+            <topichead>
+                <topicmeta><navtitle>SQL Commands</navtitle></topicmeta>
+                <!-- BAD --> <topicref href="_docs/sql-reference/sql-commands/005-supported-sql-commands.md"
+                    format="markdown"/> 
+                <topicref href="_docs/sql-reference/sql-commands/010-set.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/012-reset.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/020-alter-system.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/030-create-table-as.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/031-create-temporary-table-as.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/034-create-function-using-jar.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/035-partition-by-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/050-create-view.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/053-describe.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/054-drop-function-using-jar.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/055-drop-table.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/056-drop-view.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/070-explain.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/079-select.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/080-select-list.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/081-from-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/082-group-by-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/083-having-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/084-limit-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/085-offset-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/086-order-by-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/087-union-set-operator.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/088-where-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/089-with-clause.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/090-show-databases-and-show-schemas.md"
+                    format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/100-show-files.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/110-show-tables.md" format="markdown"/>
+                <topicref href="_docs/sql-reference/sql-commands/120-use.md" format="markdown"/>        
+                 </topichead>
+      
+            <topichead>
+                <topicmeta><navtitle>SQL Conditional Expressions</navtitle></topicmeta>
+                <topicref href="_docs/sql-reference/sql-conditional-expressions/010-case-expression.md"
+                    format="markdown"/>        
+            </topichead>
+            <topicref href="_docs/sql-reference/080-reserved-keywords.md" format="markdown"/>
+            <topicref href="_docs/sql-reference/090-sql-extensions.md" format="markdown"/>        
+        </topichead> 
+    
+        <topichead>
+            <topicmeta><navtitle>Data Sources and File Formats</navtitle></topicmeta>
+            <topicref
+                href="_docs/data-sources-and-file-formats/010-data-sources-and-file-formats-introduction.md"
+                format="markdown"/>
+            <topicref href="_docs/data-sources-and-file-formats/020-hive-to-drill-data-type-mapping.md"
+                format="markdown"/>
+            <topicref href="_docs/data-sources-and-file-formats/030-deploying-and-using-a-hive-udf.md"
+                format="markdown"/>
+            <topicref href="_docs/data-sources-and-file-formats/040-parquet-format.md" format="markdown"/>
+            <topicref href="_docs/data-sources-and-file-formats/050-json-data-model.md" format="markdown"/>
+            <topicref href="_docs/data-sources-and-file-formats/060-text-files-csv-tsv-psv.md"
+                format="markdown"/>
+            <topicref href="_docs/data-sources-and-file-formats/070-sequencefile-format.md" format="markdown"/>        
+        </topichead>
+        
+        <topichead>
+            <topicmeta><navtitle>Develop Custom Functions</navtitle></topicmeta>
+            <topicref href="_docs/develop-custom-functions/060-custom-function-interfaces.md"
+                format="markdown"/>
+            <topicref href="_docs/develop-custom-functions/010-develop-custom-functions-introduction.md"
+                format="markdown"/>
+            <topicref href="_docs/develop-custom-functions/020-developing-a-simple-function.md"
+                format="markdown"/>
+            <topicref href="_docs/develop-custom-functions/025-tutorial-develop-a-simple-function.md"
+                format="markdown"/>
+            <topichead>
+                <topicmeta>
+                    <navtitle>Adding Custom Functions to Drill</navtitle>
+                </topicmeta>
+                <topicref
+                    href="_docs/develop-custom-functions/adding-custom-functions-to-drill/009-adding-custom-functions-to-drill-introduction.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/develop-custom-functions/adding-custom-functions-to-drill/010-manually-adding-custom-functions-to-drill.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/develop-custom-functions/adding-custom-functions-to-drill/015-creating-custom-authenticators.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/develop-custom-functions/adding-custom-functions-to-drill/020-dynamic-udfs.md"
+                    format="markdown"/>
+            </topichead>
+            <topicref href="_docs/develop-custom-functions/030-developing-an-aggregate-function.md"
+                format="markdown"/>
+            <topicref href="_docs/develop-custom-functions/050-use-custom-functions-in-queries.md"
+                format="markdown"/>
+        </topichead>
+        
+        <topicref href="_docs/110-troubleshooting.md" format="markdown"/> 
+        
+    
+        
+        <topichead>
+            <topicmeta><navtitle>Developer Information</navtitle></topicmeta>      
+            
+            <topichead>
+                <topicmeta><navtitle>REST API</navtitle></topicmeta>
+                <!--  BAD  -->
+                <topicref href="_docs/developer-information/rest-api/010-rest-api-introduction.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/developer-information/rest-api/010-submitting-queries-from-the-rest-api-when-impersonation-is-enabled-and-authentication-is-disabled.md"
+                    format="markdown"/>  
+                <!-- on the Drill site there is a 'REST API Introduction that isn't reflected here but 009-rest-api.md has the same content -->
+                <!-- not sure where the topic 'Submitting Queries from the REST API when Impersonation is Enabled and Authentication is Disabled' is -->
+            </topichead>
+            
+           <topichead>
+                <topicmeta><navtitle>Develop Drill</navtitle></topicmeta>
+                <topicref href="_docs/developer-information/develop-drill/010-compiling-drill-from-source.md"
+                    format="markdown"/>        
+            </topichead>
+            
+            <topichead>
+                <topicmeta><navtitle>Contribute to Drill</navtitle></topicmeta>
+                <topicref
+                    href="_docs/developer-information/contribute-to-drill/010-apache-drill-contribution-guidelines.md"
+                    format="markdown"/>
+                <topicref
+                    href="_docs/developer-information/contribute-to-drill/020-apache-drill-contribution-ideas.md"
+                    format="markdown"/>        
+            </topichead>
+            
+            <topichead>
+                <topicmeta><navtitle>Design Docs</navtitle></topicmeta>
+                <topicref href="_docs/developer-information/design-docs/010-drill-plan-syntax.md"
+                    format="markdown"/>
+                <topicref href="_docs/developer-information/design-docs/020-rpc-overview.md" format="markdown"/>
+                <topicref href="_docs/developer-information/design-docs/030-query-stages.md" format="markdown"/>
+                <topicref href="_docs/developer-information/design-docs/040-useful-research.md"
+                    format="markdown"/>
+                <topicref href="_docs/developer-information/design-docs/050-value-vectors.md"
+                    format="markdown"/>        
+            </topichead> 
+        </topichead>
+        <topichead>
+            <topicmeta><navtitle>Release Notes</navtitle></topicmeta>
+            <topicref href="_docs/rn/001-1.12.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/010-1.11.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/011-1.10.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/012-1.9.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/013-1.8.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/014-1.7.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/015-1.6.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/016-1.5.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/017-1.4.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/018-1.3.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/019-1.2.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/020-1.1.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/030-1.0.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/040-0.9.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/050-0.8.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/060-0.7.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/070-0.6.0-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/071-0.5.0rn.md" format="markdown"/>
+            <topicref href="_docs/rn/072-0.4.0rn.md" format="markdown"/>
+            <topicref href="_docs/rn/073-alpha-rn.md" format="markdown"/>
+            <topicref href="_docs/rn/074-m1-alpha-rn.md" format="markdown"/>        
+        </topichead>   
+        
+        <topichead>
+            <topicmeta><navtitle>Sample Datasets</navtitle></topicmeta>
+            <topicref href="_docs/sample-datasets/001-aol.md" format="markdown"/>
+            <topicref href="_docs/sample-datasets/002-enron.md" format="markdown"/>
+            <topicref href="_docs/sample-datasets/003-wikipedia.md" format="markdown"/>        
+        </topichead> 
+        
+        <topicref href="_docs/170-bylaws.md" format="markdown"/> <!-- Project Bylaws -->
+    </topichead>
+    <topichead>
+        <topicmeta><navtitle>Community</navtitle></topicmeta>
+    </topichead>
+    <topicref href="faq.md" format="markdown">
+        <topicmeta><navtitle>FAQ</navtitle></topicmeta>
+        
+    </topicref>
+
+    <topichead> <!-- needs to be a topic -->
+        <topicmeta><navtitle>Blog</navtitle></topicmeta>
+    </topichead>
+    <topicref href="https://twitter.com/apachedrill/" scope="external" format="html"><topicmeta><navtitle>Twitter</navtitle></topicmeta></topicref>
+    <topicref href="download.html" format="html"/>
+    
+</map>

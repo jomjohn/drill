@@ -1,8 +1,4 @@
----
-title: "Deploying and Using a Hive UDF"
-date:  
-parent: "Data Sources and File Formats"
----
+# Deploying and Using a Hive UDF
 If the extensive Hive functions, such as the mathematical and date functions, which Drill supports do not meet your needs, you can use a Hive UDF in Drill queries. Drill supports your existing Hive scalar UDFs. You can do queries on Hive tables and access existing Hive input/output formats, including custom serdes. Drill serves as a complement to Hive deployments by offering low latency queries.
 
 ## Creating the UDF

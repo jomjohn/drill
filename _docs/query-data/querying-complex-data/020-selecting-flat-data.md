@@ -1,8 +1,4 @@
----
-title: "Selecting Flat Data"
-date:  
-parent: "Querying Complex Data"
----
+# Selecting Flat Data
 A very simple query against the `donuts.json` file returns the values for the
 five "flat" columns (the columns that contain data at the top level only: no
 nested data):

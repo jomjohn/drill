@@ -1,8 +1,4 @@
----
-title: "Using Apache Drill with Tableau 9 Desktop"
-date: 2017-04-05 00:09:55 UTC
-parent: "Using Drill with BI Tools"
----
+# Using Apache Drill with Tableau 9 Desktop
 This document describes how to connect Tableau 9 Desktop to Apache Drill and explore multiple data formats instantly on Hadoop. Use the combined power of these tools to get direct access to semi-structured data, without having to rely on IT teams for schema creation.
 
 To use Apache Drill with Tableau 9 Desktop, complete the following steps: 

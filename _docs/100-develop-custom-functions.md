@@ -1,4 +1,2 @@
----
-title: "Develop Custom Functions"
----
+# Develop Custom Functions
 

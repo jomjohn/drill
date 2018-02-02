@@ -1,8 +1,4 @@
----
-title: "ODBC Configuration Reference"
-date: 2017-08-18 17:47:53 UTC
-parent: "Configuring ODBC"
----
+# ODBC Configuration Reference
 You can use various configuration options to control the behavior of the Drill ODBC Driver. You can use these options in a connection string or in the `odbc.ini` configuration file for the Mac OS X version or the driver.
 
 {% include startnote.html %}If you use a connection string to connect to your data source, set these configuration properties in the connection string instead of the .odbc.ini file.{% include endnote.html %}

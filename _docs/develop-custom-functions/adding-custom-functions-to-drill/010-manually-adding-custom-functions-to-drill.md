@@ -1,8 +1,4 @@
----
-title: "Manually Adding Custom Functions to Drill"
-date: 
-parent: "Adding Custom Functions to Drill"
----
+# Manually Adding Custom Functions to Drill
 
 Administrators can manually add custom functions to Drill. After the custom function is developed, generate the sources and classes JAR files. Add both JAR files to the Drill classpath on each node, and include the name of the package that contains the classes to the main Drill configuration file. Restart the drillbit on each node to refresh the configuration.
 

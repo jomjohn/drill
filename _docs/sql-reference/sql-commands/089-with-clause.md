@@ -1,8 +1,4 @@
----
-title: "WITH Clause"
-date: 2017-04-05 00:09:58 UTC
-parent: "SQL Commands"
----
+# WITH Clause
 The WITH clause is an optional clause used to contain one or more common table
 expressions (CTE) where each CTE defines a temporary table that exists for the
 duration of the query. Each subquery in the WITH clause specifies a table

@@ -1,8 +1,4 @@
----
-title: "Ranking Window Functions"
-date:  
-parent: "SQL Window Functions"
----
+# Ranking Window Functions
 
 Window functions operate on a set of rows and return a single value for each row from the underlying query. The OVER() clause differentiates window functions from other analytical and reporting functions. See [SQL Window Functions Introduction]({{ site.baseurl }}/docs/sql-window-functions-introduction/). You can use ranking functions in Drill to return a ranking value for each row in a partition.  
 

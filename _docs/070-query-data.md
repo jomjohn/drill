@@ -1,5 +1,3 @@
----
-title: "Query Data"
----
+# Query Data
 
 

@@ -1,8 +1,4 @@
----
-title: "Migrating Parquet Data"
-date:  
-parent: "Install Drill"
---- 
+# Migrating Parquet Data 
 
  [Migrating Parquet data]({{site.baseurl}}/docs/migrating-parquet-data/#how-to-migrate-data) that you generated using Drill 1.2 or earlier is mandatory before using the data in later versions. The data must be marked as Drill-generated. 
 

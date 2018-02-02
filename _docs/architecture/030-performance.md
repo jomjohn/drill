@@ -1,8 +1,4 @@
----
-title: "Performance"
-date:  
-parent: "Architecture"
----
+# Performance
 Drill is designed from the ground up for high performance on large datasets.
 The following core elements of Drill processing are responsible for Drill's
 performance:

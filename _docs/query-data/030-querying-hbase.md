@@ -1,8 +1,4 @@
----
-title: "Querying HBase"
-date: 2016-07-22 00:36:27 UTC
-parent: "Query Data"
----
+# Querying HBase
 
 This section covers the following topics:
 

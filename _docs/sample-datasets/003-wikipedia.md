@@ -1,8 +1,4 @@
----
-title: "Wikipedia Edit History"
-date:  
-parent: "Sample Datasets"
----
+# Wikipedia Edit History
 ## Quick Stats
 
 The Wikipedia Edit History is a public dump of the website made available by

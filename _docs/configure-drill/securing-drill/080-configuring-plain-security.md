@@ -1,8 +1,4 @@
----
-title: "Configuring Plain Security"
-date: 2017-12-19 00:54:51 UTC
-parent: "Securing Drill"
----
+# Configuring Plain Security
 Linux PAM provides a Plain (username and password) authentication module that interfaces with any installed PAM authentication entity, such as the local operating system password file (`/etc/passwd`) or LDAP. 
  
 When using PAM for authentication, each user that has permission to run Drill queries must exist in the list of users that resides on each Drill node in the cluster. The username (including the `uid`) and password for each user must be identical across all Drill nodes. 
