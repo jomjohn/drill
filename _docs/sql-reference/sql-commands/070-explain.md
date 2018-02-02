@@ -31,12 +31,12 @@ The EXPLAIN command supports the following syntax:
 
 where `query` is any valid SELECT statement supported by Drill.
 
-##### INCLUDING ALL ATTRIBUTES
+### INCLUDING ALL ATTRIBUTES
 
 This option returns costing information. You can use this option for both
 physical and logical plans.
 
-#### WITH IMPLEMENTATION | WITHOUT IMPLEMENTATION
+### WITH IMPLEMENTATION | WITHOUT IMPLEMENTATION
 
 These options return the physical and logical plan information, respectively.
 The default is physical (WITH IMPLEMENTATION).

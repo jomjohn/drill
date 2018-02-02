@@ -30,7 +30,7 @@ The following diagram shows the existing handlers as well as the new handlers ad
 
 ![drillpipeline]({{site.baseurl}}/docs/img/drill-channel-pipeline-with-handlers.png)  
 
-######Drill Channel Pipeline with Handlers
+####Drill Channel Pipeline with Handlers
 
 
 

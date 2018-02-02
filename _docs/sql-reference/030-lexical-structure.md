@@ -68,7 +68,7 @@ Format dates using dashes (-) to separate year, month, and day. Format time usin
 
 * Timestamp: 2008-12-15 22:55:55.12345
 
-If you have dates and times in other formats, use a [data type conversion function](/data-type-conversion/#other-data-type-conversions) in your queries.
+If you have dates and times in other formats, use a [data type conversion function]({{ site.baseurl }}/data-type-conversion/#other-data-type-conversions) in your queries.
 
 ### Identifiers
 An identifier is a letter followed by any sequence of letters, digits, or the underscore. For example, names of tables, columns, and aliases are identifiers. Maximum length is 1024 characters. Enclose the following identifiers with identifier quotes:

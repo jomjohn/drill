@@ -34,7 +34,7 @@ examples show how to use the Drill extensions in the context of standard SQL
 SELECT statements. For the most part, the extensions use standard JavaScript
 notation for referencing data elements in a hierarchy.
 
-### Before You Begin
+## Before You Begin
 
 The examples in this section operate on JSON data files. In order to write
 your own queries, you need to be aware of the basic data types in these files:

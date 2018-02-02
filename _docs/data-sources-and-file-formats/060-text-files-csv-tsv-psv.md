@@ -6,7 +6,7 @@ Best practices for reading text files are:
 * Cast data
 * Use a distributed file system  
 
-### Select Data from Particular Columns
+## Select Data from Particular Columns
 
 Converting text files to another format, such as Parquet, using the CTAS command and a SELECT * statement is not recommended. Instead, you should select data from particular columns. If your text files have no headers, use the [COLUMN[n] syntax]({{site.baseurl}}/docs/querying-plain-text-files), and then assign meaningful column names using aliases. For example:
 
@@ -22,7 +22,7 @@ If your text files have headers, you can enable extractHeader and select particu
     username, CAST(registration_date AS TIMESTAMP) AS registration_date
     FROM `users.csv1`;
 
-### Cast data
+## Cast data
 
 You can also improve performance by casting the VARCHAR data in a text file to INT, FLOAT, DATETIME, and so on when you read the data from a text file. Drill performs better reading fixed-width than reading VARCHAR data. 
 
@@ -40,7 +40,7 @@ Text files that include empty strings might produce unacceptable results. Common
           FROM `test.csv`; 
 
 
-### Use a Distributed File System
+## Use a Distributed File System
 Using a distributed file system, such as HDFS, instead of a local file system to query files improves performance because Drill attempts to split files on block boundaries.
 
 ## Configuring Drill to Read Text Files

@@ -1,7 +1,4 @@
----
-layout: page
-title: Community Resources
----
+# Community Resources
 
 ## User Resources
 

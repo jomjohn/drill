@@ -1,8 +1,4 @@
----
-title: Starting Drill in Distributed Mode
-date: 2018-01-22 19:42:55 UTC
-parent: "Installing Drill in Distributed Mode"
----
+# Starting Drill in Distributed Mode
 
 To use Drill in distributed mode, you first need to start a Drill daemon (Drillbit) on each node in the cluster. Start the Drillbit before attempting to connect a client. To start the Drillbit, use the **drillbit.sh** command.
 

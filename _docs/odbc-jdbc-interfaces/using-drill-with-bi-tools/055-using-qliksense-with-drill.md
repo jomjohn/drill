@@ -20,7 +20,7 @@ To use Qlik Sense with Apache Drill, complete the following steps:
 ----------
 
 
-### Step 1: Install and Configure the Drill ODBC Driver 
+## Step 1: Install and Configure the Drill ODBC Driver 
 
 Drill uses standard ODBC connectivity to provide easy data exploration capabilities on complex, schema-less data sets. Verify that the ODBC driver version that you download correlates with the Apache Drill version that you use. Ideally, you should upgrade to the latest version of Apache Drill and the MapR Drill ODBC Driver. 
 
@@ -33,7 +33,7 @@ Complete the following steps to install and configure the driver:
 ----------
 
 
-### Step 2: Configure a Connection in Qlik Sense  
+## Step 2: Configure a Connection in Qlik Sense  
 Once you create an ODBC DSN, it shows up as another option when you create a connection from a new and/or existing Qlik Sense application. The steps for creating a connection from an application are the same in Qlik Sense Desktop and Qlik Sense Server. 
  
 Complete the following steps to configure a Drill data connection: 
@@ -45,7 +45,7 @@ Complete the following steps to configure a Drill data connection:
 ![]({{ site.baseurl }}/docs/img/step3_img1.png)
 
 ----------  
-### Step 3: Authenticate  
+## Step 3: Authenticate  
 After providing the credentials and saving the connection, click **Select** in the new connection to trigger the authentication against Drill.  
 
 ![]({{ site.baseurl }}/docs/img/step4_img1.png)  
@@ -60,7 +60,7 @@ While an Executive may have access to more tables and more fields per table.
 
 ----------  
 
-### Step 4: Select Tables and Load the Data Model  
+## Step 4: Select Tables and Load the Data Model  
 
 Explore the various tables available in Drill, and select the tables of interest. For each table selected, Qlik Sense shows a preview of the logic used for the table.  
 
@@ -91,7 +91,7 @@ If a Direct Discovery is used, the syntax of the script, as well as the messages
 
 ----------  
 
-### Step 5: Analyze Data with Qlik Sense and Drill  
+## Step 5: Analyze Data with Qlik Sense and Drill  
 
 After the data model is loaded into the application, use Qlik Sense to build a wide range of visualizations on top of the data that Drill delivers via ODBC. Qlik Sense specializes in self-service data visualization at the point of decision.  
 
@@ -103,7 +103,7 @@ If you use Direct Discovery to build the application, the application becomes a 
   
 ----------
 
-### Summary 
+## Summary 
 Together, Drill and Qlik Sense can provide a wide range of solutions that enable organizations to analyze all of their data and efficiently find solutions to various business problems.
  
 To continue exploring Qlik Sense and download Qlik Sense Desktop, visit   

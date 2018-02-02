@@ -1,8 +1,4 @@
----
-title: Starting the Web Console
-date: 2018-01-22 19:42:56 UTC
-parent: Install Drill
----
+# Starting the Web Console
 
 The Drill Web Console is one of several [client interfaces](/docs/architecture-introduction/#drill-clients) you can use to access Drill. 
 

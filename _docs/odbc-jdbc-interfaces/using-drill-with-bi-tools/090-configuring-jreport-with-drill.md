@@ -10,7 +10,7 @@ You can use JReport 13.1 and the Apache Drill JDBC Driver to easily extract data
 
 ----------
 
-### Step 1: Install the Drill JDBC Driver with JReport
+## Step 1: Install the Drill JDBC Driver with JReport
 
 Drill provides standard JDBC connectivity to integrate with JReport. JReport 13.1 requires Drill 1.0 or later.
 For general instructions on installing the Drill JDBC driver, see [Using JDBC]({{ site.baseurl }}/docs/using-the-jdbc-driver/).
@@ -31,7 +31,7 @@ For general instructions on installing the Drill JDBC driver, see [Using JDBC]({
 
 ----------
 
-### Step 2: Create a New JReport Catalog to Manage the Drill Connection
+## Step 2: Create a New JReport Catalog to Manage the Drill Connection
 
 1.  Click Create **New -> Catalog…**
 2.  Provide a catalog file name and click **…** to choose the file-saving location.
@@ -45,7 +45,7 @@ For general instructions on installing the Drill JDBC driver, see [Using JDBC]({
 10. Click **Done** when you have added all the tables you need. 
 
 
-### Step 3: Use JReport Designer
+## Step 3: Use JReport Designer
 
 1.  In the Catalog Browser, right-click **Queries** and select **Add Query…**
 2.  Define a JReport query by using the Query Editor. You can also import your own SQL statements. ![drill query flow]({{ site.baseurl }}/docs/img/jreport-queryeditor.png)

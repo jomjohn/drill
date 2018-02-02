@@ -1,7 +1,5 @@
----
-layout: page
-title: Mailing Lists
----
+# Mailing Lists
+
 All communication related to the Apache Drill project happens on the mailing lists:
 
 * **User** (this is where you should ask for help if you have any questions or issues)

@@ -1,8 +1,4 @@
----
-title: Identifying Multiple Drill Versions in a Cluster
-date:  
-parent: Install Drill
----
+# Identifying Multiple Drill Versions in a Cluster
 
 As of Drill 1.10, the Web Console displays the Drill version running on each Drill node in the cluster, as shown in the following image:  
 

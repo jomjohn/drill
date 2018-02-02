@@ -4,7 +4,7 @@ Hadoop Sequence files (https://wiki.apache.org/hadoop/SequenceFile) are flat fil
 Drill projects sequence files as table with two columns - 'binary_key', 'binary_value' of type VARBINARY.
 
 
-### Storage plugin format for sequence files.
+## Storage plugin format for sequence files.
 
     . . .
     "sequencefile": {
@@ -15,7 +15,7 @@ Drill projects sequence files as table with two columns - 'binary_key', 'binary_
     },
     . . .
 
-### Querying sequence file.
+## Querying sequence file.
 
     SELECT *
     FROM dfs.tmp.`simple.seq`

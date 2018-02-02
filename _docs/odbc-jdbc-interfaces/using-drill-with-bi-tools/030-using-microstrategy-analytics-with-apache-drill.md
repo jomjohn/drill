@@ -11,7 +11,7 @@ Complete the following steps to use Apache Drill with MicroStrategy Analytics En
 ----------
 
 
-### Step 1: Install and Configure the MapR Drill ODBC Driver 
+## Step 1: Install and Configure the MapR Drill ODBC Driver 
 
 Drill uses standard ODBC connectivity to provide easy data exploration capabilities on complex, schema-less data sets. Verify that the ODBC driver version that you download correlates with the Apache Drill version that you use. Ideally, you should upgrade to the latest version of Apache Drill and the MapR Drill ODBC Driver. 
 
@@ -42,7 +42,7 @@ Complete the following steps to install and configure the driver:
 ----------
 
 
-### Step 2: Install the Drill Object on MicroStrategy Analytics Enterprise 
+## Step 2: Install the Drill Object on MicroStrategy Analytics Enterprise 
 The steps listed in this section were created based on the MicroStrategy Technote for installing DBMS objects which you can reference at: 
 
 http://community.microstrategy.com/t5/Database/TN43537-How-to-install-DBMS-objects-provided-by-MicroStrategy/ta-p/193352
@@ -74,7 +74,7 @@ MicroStrategy Analytics Enterprise can now access Apache Drill.
 
 ----------
 
-### Step 3: Create the MicroStrategy database connection for Apache Drill
+## Step 3: Create the MicroStrategy database connection for Apache Drill
 Complete the following steps to use the Database Instance Wizard to create the MicroStrategy database connection for Apache Drill:
 
 1. In MicroStrategy  Developer, select **Administration > Database Instance Wizard**.
@@ -91,13 +91,13 @@ You can now use MicroStrategy Analytics Enterprise to access Drill as a database
 ----------
 
 
-### Step 4: Query and Analyze the Data
+## Step 4: Query and Analyze the Data
 This step includes an example scenario that shows you how to use MicroStrategy, with Drill as the database instance, to analyze Twitter data stored as complex JSON documents. 
 
-####Scenario
+###Scenario
 The Drill distributed file system plugin is configured to read Twitter data in a directory structure. A view is created in Drill to capture the most relevant maps and nested maps and arrays for the Twitter JSON documents. Refer to [Query Data](/docs/query-data-introduction/) for more information about how to configure and use Drill to work with complex data:
 
-####Part 1: Create a Project
+###Part 1: Create a Project
 Complete the following steps to create a project:
 
 1. In MicroStrategy Developer, use the Project Creation Assistant to create a new project.
@@ -112,7 +112,7 @@ Complete the following steps to create a project:
 8.	Click **Save and Close**.
 9.	Click **OK**. The new project is created in MicroStrategy Developer. 
 
-####Part 2: Create a Freeform Report to Analyze Data
+###Part 2: Create a Freeform Report to Analyze Data
 Complete the following steps to create a Freeform Report and analyze data:
 
 1.	In Developer, open the Project and then open Public Objects.
@@ -135,7 +135,7 @@ In this scenario, you learned how to configure MicroStrategy Analytics Enterpris
 
 ----------
 
-### Certification Links
+## Certification Links
 
 * MicroStrategy certifies its analytics platform with Apache Drill: http://ir.microstrategy.com/releasedetail.cfm?releaseid=902795
 

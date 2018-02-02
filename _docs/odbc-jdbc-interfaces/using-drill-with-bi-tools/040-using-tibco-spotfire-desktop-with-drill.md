@@ -9,7 +9,7 @@ To use Spotfire Desktop with Apache Drill, complete the following steps:
 ----------
 
 
-### Step 1: Install and Configure the MapR Drill ODBC Driver 
+## Step 1: Install and Configure the MapR Drill ODBC Driver 
 
 Drill uses standard ODBC connectivity to provide easy data exploration capabilities on complex, schema-less data sets. Verify that the ODBC driver version that you download correlates with the Apache Drill version that you use. Ideally, you should upgrade to the latest version of Apache Drill and the MapR Drill ODBC Driver. 
 
@@ -23,7 +23,7 @@ Complete the following steps to install and configure the driver:
 ----------
 
 
-### Step 2: Configure the Spotfire Desktop Data Connection for Drill 
+## Step 2: Configure the Spotfire Desktop Data Connection for Drill 
 Complete the following steps to configure a Drill data connection: 
 
 1. Select the **Add Data Connection** option or click the Add Data Connection button in the menu bar, as shown in the image below:![](http://i.imgur.com/p3LNNBs.png)

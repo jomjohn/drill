@@ -7,7 +7,7 @@ Starting with version 1.3.0, Drill has the ability to query files stored on Amaz
 
 There are two simple steps to follow: (1) provide your AWS credentials (2) configure S3 storage plugin with S3 bucket
 
-#### (1) AWS credentials
+### (1) AWS credentials
 
 To enable Drill's S3a support, edit the file conf/core-site.xml in your Drill install directory, replacing the text ENTER_YOUR_ACESSKEY and ENTER_YOUR_SECRETKEY with your AWS credentials.
 
@@ -27,7 +27,7 @@ To enable Drill's S3a support, edit the file conf/core-site.xml in your Drill in
 </configuration>
 ```
 
-#### (2) Configure S3 Storage Plugin
+### (2) Configure S3 Storage Plugin
 
 Enable S3 storage plugin if you already have one configured or you can add a new plugin by following these steps:
 

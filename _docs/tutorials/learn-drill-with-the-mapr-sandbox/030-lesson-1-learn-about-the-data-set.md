@@ -278,7 +278,7 @@ setup beyond the definition of a workspace.
 
 ### Query nested clickstream data
 
-#### Set the workspace to dfs.clicks:
+### Set the workspace to dfs.clicks:
 
     0: jdbc:drill:> use dfs.clicks;
     +-------+-----------------------------------------+
@@ -300,7 +300,7 @@ Any file or directory that you want to query in this path can be referenced
 relative to this path. The clicks directory referred to in the following query
 is directly below the nested directory.
 
-#### Select 2 rows from the clicks.json file:
+### Select 2 rows from the clicks.json file:
 
     0: jdbc:drill:> select * from `clicks/clicks.json` limit 2;
     +-----------+-------------+-----------+---------------------------------------------------+-------------------------------------------+
@@ -319,7 +319,7 @@ The only special requirement is the use of back ticks to enclose the file
 path. This is necessary whenever the file path contains Drill reserved words
 or characters.
 
-#### Select 2 rows from the campaign.json file:
+### Select 2 rows from the campaign.json file:
 
     0: jdbc:drill:> select * from `clicks/clicks.campaign.json` limit 2;
     +-----------+-------------+-----------+---------------------------------------------------+---------------------+----------------------------------------+
@@ -352,7 +352,7 @@ The files in the logs directory and its subdirectories are JSON files. There
 are many of these files, but you can use Drill to query them all as a single
 data source, or to query a subset of the files.
 
-#### Set the workspace to dfs.logs:
+### Set the workspace to dfs.logs:
 
     0: jdbc:drill:> use dfs.logs;
     +-------+---------------------------------------+
@@ -362,7 +362,7 @@ data source, or to query a subset of the files.
     +-------+---------------------------------------+
     1 row selected
 
-#### Select 2 rows from the logs directory:
+### Select 2 rows from the logs directory:
 
     0: jdbc:drill:> select * from logs limit 2;
     +-------+-------+-----------+-------------+-----------+----------+---------+--------+----------+-----------+----------+-------------+
@@ -382,7 +382,7 @@ The column names dir0 and dir1 are special Drill variables that identify
 subdirectories below the logs directory. In Lesson 3, you will do more complex
 queries that leverage these dynamic variables.
 
-#### Find the total number of rows in the logs directory (all files):
+### Find the total number of rows in the logs directory (all files):
 
     0: jdbc:drill:> select count(*) from logs;
     +---------+

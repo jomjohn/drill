@@ -3,7 +3,7 @@ Apache Drill supports querying a number of RDBMS instances. This allows you to c
 
 As with any source, Drill supports joins within and between all systems. Drill additionally has powerful pushdown capabilities with RDBMS sources. This includes support to push down join, where, group by, intersect and other SQL operations into a particular RDBMS source (as appropriate).
 
-### Using the RDBMS Storage Plugin
+## Using the RDBMS Storage Plugin
 
 Drill is designed to work with any relational datastore that provides a JDBC driver. Drill is actively tested with Postgres, MySQL, Oracle, MSSQL and Apache Derby. For each system, you will follow three basic steps for setup:
 

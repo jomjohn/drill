@@ -10,7 +10,7 @@ To use Apache Drill with Tableau 9 Desktop, complete the following steps:
 
 ----------
 
-### Step 1: Install and Configure the MapR Drill ODBC Driver 
+## Step 1: Install and Configure the MapR Drill ODBC Driver 
 
 Drill uses standard ODBC connectivity to provide easy data-exploration capabilities on complex, schema-less data sets. For the best experience use the latest release of Apache Drill. For Tableau 9.0 Desktop, Drill Version 0.9 or higher is recommended.
 
@@ -29,7 +29,7 @@ Also make sure to test the ODBC connection to Drill before using it with Tableau
 
 ----------
 
-### Step 2: Install the Tableau Data-connection Customization (TDC) File
+## Step 2: Install the Tableau Data-connection Customization (TDC) File
 
 The MapR Drill ODBC Driver includes a file named `MapRDrillODBC.TDC`. The TDC file includes customizations that improve ODBC configuration and performance when using Tableau. The MapR Drill ODBC driver installer automatically installs the TDC file if the installer can find the Tableau installation. If you installed the MapR Drill ODBC driver first and then installed Tableau, the TDC file is not installed automatically. You must install the TDC file manually. 
 
@@ -48,7 +48,7 @@ If the installation of the TDC file fails, this is likely due to your Tableau re
 ----------
 
 
-### Step 3: Connect Tableau to Drill via ODBC
+## Step 3: Connect Tableau to Drill via ODBC
 Complete the following steps to configure an ODBC data connection: 
 
 To connect Tableau to Drill use the following steps:
@@ -74,7 +74,7 @@ Note: If Drill authentication and impersonation is enabled, only the views that 
 
 ----------
 
-### Step 4: Query and Analyze the Data 
+## Step 4: Query and Analyze the Data 
 
 Tableau Desktop can now use Drill to query various data sources and visualize the information.
 

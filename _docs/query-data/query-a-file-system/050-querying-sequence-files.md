@@ -4,7 +4,7 @@ Sequence files are flat files storing binary key value pairs.
 Drill projects sequence files as table with two columns 'binary_key', 'binary_value'.
 
 
-### Querying sequence file.
+## Querying sequence file.
 
 Start drill shell
 
