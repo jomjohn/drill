@@ -1,5 +1,7 @@
-# Frequently Asked Questions
-
+---
+layout: page
+title: Frequently Asked Questions
+---
 ## Overview
 
 ### Why Drill?

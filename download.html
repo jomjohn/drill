@@ -1,19 +1,15 @@
-<html>
-  
- <head>
-   <link href="{{ site.baseurl }}/css/download.css" rel="stylesheet" type="text/css"/>
-   
-   
- </head> 
-  <body>
-  
+---
+layout: page
+title: Download
+---
+<link href="{{ site.baseurl }}/css/download.css" rel="stylesheet" type="text/css">
 <p>Drill {{ site.data.version.display_version }} was released on {{ site.data.version.release_date }}.</p>
 
 <div id="download_bar">
 <div class="table">
 <ul id="download_buttons">
 <li><a href="http://www.apache.org/dyn/closer.cgi/drill/drill-{{ site.data.version.full_version }}/apache-drill-{{ site.data.version.full_version }}.tar.gz" class="find" id="apachemirror">Find an Apache Mirror</a></li>
-<li><a href="http://www.apache.org/dyn/closer.lua?filename=drill/drill-{{ site.data.version.full_version }}/apache-drill-{{ site.data.version.full_version }}.tar.gzaction=download" class="dl" id="directdownload">Direct File Download</a></li>
+<li><a href="http://www.apache.org/dyn/closer.lua?filename=drill/drill-{{ site.data.version.full_version }}/apache-drill-{{ site.data.version.full_version }}.tar.gz&action=download" class="dl" id="directdownload">Direct File Download</a></li>
 <li><a href="{{ site.baseurl }}/docs/interfaces-introduction/" class="dl">Client Drivers (ODBC/JDBC)</a></li>
 </ul>
 </div>
@@ -21,14 +17,14 @@
 
 <p>Additional resources for Drill {{ site.data.version.display_version }}:</p>
 <ul>
-<li><a href="{{ site.baseurl }}{{ site.data.version.blog_post }}">Blog post</a></li>
-  <li><a href="{{ site.data.version.release_notes }}">Release notes (JIRA)</a></li>
+{% if site.data.version.blog_post %}<li><a href="{{ site.baseurl }}{{ site.data.version.blog_post }}">Blog post</a></li>{% endif %}
+{% if site.data.version.release_notes %}<li><a href="{{ site.data.version.release_notes }}">Release notes (JIRA)</a></li>{% endif %}
 <li><a href="https://github.com/apache/drill/tree/{{ site.data.version.full_version }}">Source code</a></li>
 </ul>
 
-<p>If you're looking for an older release, see the <a href="{{ site.baseurl }}/docs/release-notes/">release notes</a>.</p>
+<p>If you're looking for an older release, see the <a href="{{ site.baseurl }}/docs/release-notes/">release notes</a>.
 
- <script type="text/javascript">
+<script type="text/javascript">
 $('#directdownload').click(function(event) {
   ga('send', 'event', 'Downloads', 'Direct', 'Direct Download');
 });
@@ -42,5 +38,3 @@ $('#apachemirror').click(function(event) {
   });
 });
 </script>
-  </body>
-</html>
