@@ -680,7 +680,10 @@
         <topicref href="blog/_posts/2017-07-31-drill-1.11-released.md" format="markdown"/>
         <topicref href="blog/_posts/2017-12-15-drill-1.12-released.md" format="markdown"/>
     </topichead>
-    <topicref href="https://twitter.com/apachedrill/" scope="external" format="html"><topicmeta><navtitle>Twitter</navtitle></topicmeta></topicref>
-    <topicref href="download.html" format="html"/>
+    <topicref href="https://twitter.com/apachedrill/" scope="external" format="html" outputclass="topicref twitterlink">
+        <topicmeta><navtitle>_</navtitle></topicmeta></topicref>
+    <topicref href="download.html" format="html">
+        <topicmeta><navtitle>Download</navtitle></topicmeta>       
+    </topicref>
     
 </map>
