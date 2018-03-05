@@ -669,9 +669,9 @@
         <topicref href="blog/_posts/2015-07-05-drill-1.1-released.md" format="markdown"/><!-- start -->
              <topicref href="blog/_posts/2015-07-23-drill-tutorial-at-nosql-now-2015.md"
             format="markdown"/>
-        <topicref href="blog/_posts/2015-10-16-drill-1.2-released.md" format="markdown"/>
+        <!--<topicref href="blog/_posts/2015-10-16-drill-1.2-released.md" format="markdown"/>
         <topicref href="blog/_posts/2015-11-23-drill-1.3-released.md" format="markdown"/>
-        <topicref href="blog/_posts/2015-12-14-drill-1.4-released.md" format="markdown"/>
+        <topicref href="blog/_posts/2015-12-14-drill-1.4-released.md" format="markdown"/>--><!-- end -->
       <!--  <topicref href="blog/_posts/2016-02-16-drill-1.5-released.md" format="markdown"/>
         <topicref href="blog/_posts/2016-03-16-drill-1.6-released.md" format="markdown"/>
         <topicref href="blog/_posts/2016-06-28-drill-1.7-released.md" format="markdown"/>-->
