@@ -15,7 +15,7 @@
             </vrmlist>
         </prodinfo>
     </topicmeta>
-    <topichead>
+ <!--   <topichead>
         <topicmeta><navtitle>Documentation</navtitle></topicmeta>
         
 
@@ -303,7 +303,7 @@
                 <topicref
                     href="_docs/query-data/querying-complex-data/005-querying-complex-data-introduction.md"
                     format="markdown"/>
-                <topicref href="_docs/query-data/querying-complex-data/010-sample--data-donuts.md"
+                <topicref href="_docs/query-data/querying-complex-data/010-sample-\-data-donuts.md"
                     format="markdown"/>
                 <topicref href="_docs/query-data/querying-complex-data/020-selecting-flat-data.md"
                     format="markdown"/>
@@ -407,7 +407,7 @@
                 <topicref href="_docs/sql-reference/data-types/030-handling-different-data-types.md"
                     format="markdown"/>        
             </topichead>
-            <!--   BAD    -->  <topicref href="_docs/sql-reference/030-lexical-structure.md" format="markdown"/> 
+            <!-\-   BAD    -\->  <topicref href="_docs/sql-reference/030-lexical-structure.md" format="markdown"/> 
              <topicref href="_docs/sql-reference/040-operators.md" format="markdown"/>
        
            
@@ -457,7 +457,7 @@
             <topicref href="_docs/sql-reference/065-query-directory-functions.md" format="markdown"/>
             <topichead>
                 <topicmeta><navtitle>SQL Commands</navtitle></topicmeta>
-                <!-- BAD --> <topicref href="_docs/sql-reference/sql-commands/005-supported-sql-commands.md"
+                <!-\- BAD -\-> <topicref href="_docs/sql-reference/sql-commands/005-supported-sql-commands.md"
                     format="markdown"/> 
                 <topicref href="_docs/sql-reference/sql-commands/010-set.md" format="markdown"/>
                 <topicref href="_docs/sql-reference/sql-commands/012-reset.md" format="markdown"/>
@@ -560,14 +560,14 @@
             
             <topichead>
                 <topicmeta><navtitle>REST API</navtitle></topicmeta>
-                <!--  BAD  -->
+                <!-\-  BAD  -\->
                 <topicref href="_docs/developer-information/rest-api/010-rest-api-introduction.md"
                     format="markdown"/>
                 <topicref
                     href="_docs/developer-information/rest-api/010-submitting-queries-from-the-rest-api-when-impersonation-is-enabled-and-authentication-is-disabled.md"
                     format="markdown"/>  
-                <!-- on the Drill site there is a 'REST API Introduction that isn't reflected here but 009-rest-api.md has the same content -->
-                <!-- not sure where the topic 'Submitting Queries from the REST API when Impersonation is Enabled and Authentication is Disabled' is -->
+                <!-\- on the Drill site there is a 'REST API Introduction that isn't reflected here but 009-rest-api.md has the same content -\->
+                <!-\- not sure where the topic 'Submitting Queries from the REST API when Impersonation is Enabled and Authentication is Disabled' is -\->
             </topichead>
             
            <topichead>
@@ -630,20 +630,21 @@
             <topicref href="_docs/sample-datasets/003-wikipedia.md" format="markdown"/>        
         </topichead> 
         
-        <topicref href="_docs/170-bylaws.md" format="markdown"/> <!-- Project Bylaws -->
+        <topicref href="_docs/170-bylaws.md" format="markdown"/> <!-\- Project Bylaws -\->
     </topichead>
     <topichead>
         <topicmeta><navtitle>Community</navtitle></topicmeta>
         <topicref href="community-resources.md" format="markdown"/>
         <topicref href="mailinglists.md" format="markdown"/>
         <topicref href="team.md" format="markdown"/>
-    </topichead>
+    </topichead>-->
     <topicref href="faq.md" format="markdown">
         <topicmeta><navtitle>FAQ</navtitle></topicmeta>
         
     </topicref>
 
-    <topichead> <!-- needs to be a topic -->
+    <!-- needs to be a topic -->
+ <!--   <topichead> 
         <topicmeta><navtitle>Blog</navtitle></topicmeta>
         <topicref href="blog/_posts/2014-11-13-sql-on-mongodb.md" format="markdown"/>
         <topicref href="blog/_posts/2014-12-03-drill-top-level-project.md" format="markdown"/>
@@ -684,6 +685,6 @@
         <topicmeta><navtitle>_</navtitle></topicmeta></topicref>
     <topicref href="download.html" format="html">
         <topicmeta><navtitle>Download</navtitle></topicmeta>       
-    </topicref>
+    </topicref>-->
     
 </map>
