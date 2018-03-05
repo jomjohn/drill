@@ -644,10 +644,10 @@
     </topicref>
 
     <!-- needs to be a topic -->
-<!--  <topichead> 
+  <topichead> 
         <topicmeta><navtitle>Blog</navtitle></topicmeta>
         <topicref href="blog/_posts/2014-11-13-sql-on-mongodb.md" format="markdown"/>
-        <topicref href="blog/_posts/2014-12-03-drill-top-level-project.md" format="markdown"/>
+ <!--       <topicref href="blog/_posts/2014-12-03-drill-top-level-project.md" format="markdown"/>
         <topicref href="blog/_posts/2014-12-09-running-sql-queries-on-amazon-s3.md"
             format="markdown"/>
         <topicref href="blog/_posts/2014-12-11-apache-drill-qa-panelist-spotlight.md"
@@ -679,8 +679,8 @@
         <topicref href="blog/_posts/2016-11-29-drill-1.9-released.md" format="markdown"/>
         <topicref href="blog/_posts/2017-03-15-drill-1.10-released.md" format="markdown"/>
         <topicref href="blog/_posts/2017-07-31-drill-1.11-released.md" format="markdown"/>
-        <topicref href="blog/_posts/2017-12-15-drill-1.12-released.md" format="markdown"/>
-    </topichead> -->
+        <topicref href="blog/_posts/2017-12-15-drill-1.12-released.md" format="markdown"/>-->
+    </topichead>
     <!--   <topicref href="https://twitter.com/apachedrill/" scope="external" format="html" outputclass="topicref twitterlink">
         <topicmeta><navtitle>_</navtitle></topicmeta></topicref>
     <topicref href="download.html" format="html">
