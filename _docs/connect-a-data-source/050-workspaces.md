@@ -41,7 +41,7 @@ clause.
 
 ``<workspace name>.`<location>```
 
-Where `<location>` is the path name of a subdirectory, such as `/users/max/drill/json` enclosed in double quotation marks as shown in the ["Querying Donuts Example."](/docs/file-system-storage-plugin/#querying-donuts-example)
+Where `<location>` is the path name of a subdirectory, such as `/users/max/drill/json` enclosed in double quotation marks as shown in the ["Querying Donuts Example."]({{site.baseurl}}/docs/file-system-storage-plugin/#querying-donuts-example)
 
 To query the data source when you have not set the default schema name to the storage plugin configuration, include the plugin name. This syntax assumes you did not issue a USE statement to connect to a storage plugin that defines the
 location of the data:

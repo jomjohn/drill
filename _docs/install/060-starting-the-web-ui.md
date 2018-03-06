@@ -1,6 +1,6 @@
 # Starting the Web Console
 
-The Drill Web Console is one of several [client interfaces](/docs/architecture-introduction/#drill-clients) you can use to access Drill. 
+The Drill Web Console is one of several [client interfaces]({{site.baseurl}}/docs/architecture-introduction/#drill-clients) you can use to access Drill. 
 
 To open the Drill Web Console, launch a web browser, and go to one of the following URLs depending on the configuration of HTTPS support:
 

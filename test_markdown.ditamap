@@ -15,7 +15,7 @@
             </vrmlist>
         </prodinfo>
     </topicmeta>
- <!--   <topichead>
+    <topichead>
         <topicmeta><navtitle>Documentation</navtitle></topicmeta>
         
 
@@ -303,7 +303,7 @@
                 <topicref
                     href="_docs/query-data/querying-complex-data/005-querying-complex-data-introduction.md"
                     format="markdown"/>
-                <topicref href="_docs/query-data/querying-complex-data/010-sample-\-data-donuts.md"
+                <topicref href="_docs/query-data/querying-complex-data/010-sample--data-donuts.md"
                     format="markdown"/>
                 <topicref href="_docs/query-data/querying-complex-data/020-selecting-flat-data.md"
                     format="markdown"/>
@@ -407,7 +407,7 @@
                 <topicref href="_docs/sql-reference/data-types/030-handling-different-data-types.md"
                     format="markdown"/>        
             </topichead>
-            <!-\-   BAD    -\->  <topicref href="_docs/sql-reference/030-lexical-structure.md" format="markdown"/> 
+            <!--   BAD    -->  <topicref href="_docs/sql-reference/030-lexical-structure.md" format="markdown"/> 
              <topicref href="_docs/sql-reference/040-operators.md" format="markdown"/>
        
            
@@ -457,7 +457,7 @@
             <topicref href="_docs/sql-reference/065-query-directory-functions.md" format="markdown"/>
             <topichead>
                 <topicmeta><navtitle>SQL Commands</navtitle></topicmeta>
-                <!-\- BAD -\-> <topicref href="_docs/sql-reference/sql-commands/005-supported-sql-commands.md"
+                <!-- BAD --> <topicref href="_docs/sql-reference/sql-commands/005-supported-sql-commands.md"
                     format="markdown"/> 
                 <topicref href="_docs/sql-reference/sql-commands/010-set.md" format="markdown"/>
                 <topicref href="_docs/sql-reference/sql-commands/012-reset.md" format="markdown"/>
@@ -560,14 +560,14 @@
             
             <topichead>
                 <topicmeta><navtitle>REST API</navtitle></topicmeta>
-                <!-\-  BAD  -\->
+                <!--  BAD  -->
                 <topicref href="_docs/developer-information/rest-api/010-rest-api-introduction.md"
                     format="markdown"/>
                 <topicref
                     href="_docs/developer-information/rest-api/010-submitting-queries-from-the-rest-api-when-impersonation-is-enabled-and-authentication-is-disabled.md"
                     format="markdown"/>  
-                <!-\- on the Drill site there is a 'REST API Introduction that isn't reflected here but 009-rest-api.md has the same content -\->
-                <!-\- not sure where the topic 'Submitting Queries from the REST API when Impersonation is Enabled and Authentication is Disabled' is -\->
+                <!-- on the Drill site there is a 'REST API Introduction that isn't reflected here but 009-rest-api.md has the same content -->
+                <!-- not sure where the topic 'Submitting Queries from the REST API when Impersonation is Enabled and Authentication is Disabled' is -->
             </topichead>
             
            <topichead>
@@ -630,8 +630,8 @@
             <topicref href="_docs/sample-datasets/003-wikipedia.md" format="markdown"/>        
         </topichead> 
         
-        <topicref href="_docs/170-bylaws.md" format="markdown"/> <!-\- Project Bylaws -\->
-    </topichead>-->
+        <topicref href="_docs/170-bylaws.md" format="markdown"/> <!-- Project Bylaws -->
+    </topichead>
     <topichead>
         <topicmeta><navtitle>Community</navtitle></topicmeta>
         <topicref href="community-resources.md" format="markdown"/>
@@ -666,25 +666,25 @@
         <topicref
             href="blog/_posts/2015-05-19-the-apache-software-foundation-announces-apache-drill-1.0.md"
             format="markdown"/>
-        <topicref href="blog/_posts/2015-07-05-drill-1.1-released.md" format="markdown"/><!-- start -->
+        <topicref href="blog/_posts/2015-07-05-drill-1.1-released.md" format="markdown"/>
              <topicref href="blog/_posts/2015-07-23-drill-tutorial-at-nosql-now-2015.md"
             format="markdown"/>
-        <topicref href="blog/_posts/2015-10-16-drill-1.2-released.md" format="markdown"/> <!-- Throwing symlink issue with Jennkins -->
-  <!--      <topicref href="blog/_posts/2015-11-23-drill-1.3-released.md" format="markdown"/>
-        <topicref href="blog/_posts/2015-12-14-drill-1.4-released.md" format="markdown"/>--><!-- end -->
-      <!--  <topicref href="blog/_posts/2016-02-16-drill-1.5-released.md" format="markdown"/>
+        <topicref href="blog/_posts/2015-10-16-drill-1.2-released.md" format="markdown"/>
+        <topicref href="blog/_posts/2015-11-23-drill-1.3-released.md" format="markdown"/>
+        <topicref href="blog/_posts/2015-12-14-drill-1.4-released.md" format="markdown"/>
+        <topicref href="blog/_posts/2016-02-16-drill-1.5-released.md" format="markdown"/>
         <topicref href="blog/_posts/2016-03-16-drill-1.6-released.md" format="markdown"/>
-        <topicref href="blog/_posts/2016-06-28-drill-1.7-released.md" format="markdown"/>-->
+        <topicref href="blog/_posts/2016-06-28-drill-1.7-released.md" format="markdown"/>
         <topicref href="blog/_posts/2016-08-30-drill-1.8-released.md" format="markdown"/>
         <topicref href="blog/_posts/2016-11-29-drill-1.9-released.md" format="markdown"/>
         <topicref href="blog/_posts/2017-03-15-drill-1.10-released.md" format="markdown"/>
         <topicref href="blog/_posts/2017-07-31-drill-1.11-released.md" format="markdown"/>
         <topicref href="blog/_posts/2017-12-15-drill-1.12-released.md" format="markdown"/>
     </topichead>
-    <!--   <topicref href="https://twitter.com/apachedrill/" scope="external" format="html" outputclass="topicref twitterlink">
+       <topicref href="https://twitter.com/apachedrill/" scope="external" format="html" outputclass="topicref twitterlink">
         <topicmeta><navtitle>_</navtitle></topicmeta></topicref>
     <topicref href="download.html" format="html">
         <topicmeta><navtitle>Download</navtitle></topicmeta>       
-    </topicref>-->
+    </topicref>
     
 </map>

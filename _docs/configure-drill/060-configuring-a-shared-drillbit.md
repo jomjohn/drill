@@ -11,7 +11,7 @@ Set [options in sys.options]({{site.baseurl}}/docs/configuration-options-introdu
 
 The exec.queue.threshold sets the cost threshold for determining whether query is large or small based on complexity. Complex queries have higher thresholds. The default, 30,000,000, represents the estimated rows that a query will process. To serialize incoming queries, set the small queue at 0 and the threshold at 0.
 
-For more information, see the section, ["Performance Tuning"](/docs/performance-tuning-introduction/).
+For more information, see the section, ["Performance Tuning"]({{site.baseurl}}/docs/performance-tuning-introduction/).
 
 ## Configuring Parallelization
 

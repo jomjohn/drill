@@ -31,7 +31,7 @@ Drill provides the following functions for analyzing nested data.
 
 ## Other Extensions
 
-The [`sys` tables](/docs/querying-system-tables/) provide port, version, and option information.  For example, Drill connects to a random node. You query the sys table to know where you are connected:
+The [`sys` tables]({{site.baseurl}}/docs/querying-system-tables/) provide port, version, and option information.  For example, Drill connects to a random node. You query the sys table to know where you are connected:
 
     SELECT host FROM sys.drillbits WHERE `current` = true;
     +------------+

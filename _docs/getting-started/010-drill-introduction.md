@@ -157,7 +157,7 @@ Many enhancements in Apache Drill 1.1 include the following key features:
 
 Apache Drill 1.0 offers the following new features:
 
-* Many performance planning and execution [improvements](/docs/performance-tuning-introduction/).
+* Many performance planning and execution [improvements]({{site.baseurl}}/docs/performance-tuning-introduction/).
 * Updated [Drill shell]({{site.baseurl}}/docs/configuring-the-drill-shell) now formats query results.
 * [Query audit logging]({{site.baseurl}}/docs/getting-query-information/) for getting the query history on a Drillbit.
 * Improved connection handling.
