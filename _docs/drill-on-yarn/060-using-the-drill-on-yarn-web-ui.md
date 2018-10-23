@@ -1,6 +1,6 @@
 ---
 title: "Using the Drill-on-YARN Web UI"
-date:  
+date: 2018-10-23
 parent: "Drill-on-YARN"
 ---  
 

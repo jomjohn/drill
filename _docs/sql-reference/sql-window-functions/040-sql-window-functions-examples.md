@@ -1,6 +1,6 @@
 ---
 title: "SQL Window Functions Examples"
-date:  
+date: 2018-10-23
 parent: "SQL Window Functions"
 ---
 

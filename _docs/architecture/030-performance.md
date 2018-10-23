@@ -1,6 +1,6 @@
 ---
 title: "Performance"
-date:  
+date: 2018-10-23
 parent: "Architecture"
 ---
 Drill is designed from the ground up for high performance on large datasets.

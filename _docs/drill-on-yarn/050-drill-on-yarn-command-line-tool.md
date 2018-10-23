@@ -1,6 +1,6 @@
 ---
 title: "Drill-on-YARN Command-Line Tool"
-date:  
+date: 2018-10-23
 parent: "Drill-on-YARN"
 ---  
 

@@ -1,6 +1,6 @@
 ---
 title: "Appendix A: Release Note Issues"
-date:  
+date: 2018-10-23
 parent: "Drill-on-YARN"
 ---  
 

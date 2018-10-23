@@ -1,6 +1,6 @@
 ---
 title: "Drill Query Execution"
-date:  
+date: 2018-10-23
 parent: "Architecture"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Project Bylaws"
-date:  
+date: 2018-10-23
 ---
 ## Introduction
 

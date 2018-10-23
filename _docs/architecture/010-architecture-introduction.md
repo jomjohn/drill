@@ -1,6 +1,6 @@
 ---
 title: "Architecture Introduction"
-date:  
+date: 2018-10-23
 parent: "Architecture"
 ---
 Apache Drill is a low latency distributed query engine for large-scale

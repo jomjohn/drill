@@ -1,6 +1,6 @@
 ---
 title: "ALTER SYSTEM"
-date:  
+date: 2018-10-23
 parent: "SQL Commands"
 ---
 The ALTER SYSTEM command permanently changes a system setting. The new setting

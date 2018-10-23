@@ -1,6 +1,6 @@
 ---
 title: "Launch Drill Under YARN"
-date:  
+date: 2018-10-23
 parent: "Drill-on-YARN"
 ---  
 
