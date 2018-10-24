@@ -28,6 +28,8 @@ defaults:
     values:
       layout: docpage
 
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
 sass:
   style: :compressed
 
